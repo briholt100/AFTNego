@@ -9,12 +9,11 @@ names(pollData)
 
 colnames(pollData) <- c("timestamp","list","explain","alt1","alt2","alt3","comment","Status")
 names(pollData)
+
+
 #first remove parantheses, make a title column
 #Then str split, but how to make those into coloumns?
-
 pollData$names<-pollData$list #creates new variable
-
-#pulls out everything but names (except for "monte")
 pollData$names<-gsub("Associate Vice Chancellor \\(B\\.A\\.S District coordinator\\)|sccc|-north|District Liason Gates grants \\(former |vice chancellor for finance & technology|north vpi|north vice president|Retired \\(total speculation\\)|--|, administrative services",""
      ,as.character(pollData$names),ignore.case=T) 
 pollData$names<-gsub("jensen)","Jensen",as.character(pollData$names),ignore.case=T)
@@ -24,5 +23,8 @@ pollData$names<-sub(", ",",",as.character(pollData$names),ignore.case=T)
 pollData$names<-sub("pete|peter","Peter",as.character(pollData$names),ignore.case=T)
 table(pollData$names)
 list<-(strsplit(as.character(pollData$names),","))
+
 table(unlist(list))
+
+
 pollData[c(3,7)]  #comments
