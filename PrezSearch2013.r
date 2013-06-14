@@ -64,3 +64,9 @@ pollData[pete.tracy & pollData[4]=="Tracy Furutani" | pollData[5]=="Tracy Furuta
       #this should pull just those records with Tracy in both fields
 
 pollData[c(3,7)]  #comments
+
+
+no.list<-grep("not|no",pollData$explain,ignore.case=T,value=F)
+mary.list<-grep("mary",pollData$explain,ignore.case=T,value=F)
+
+pollData[no.list & mary.list,]
