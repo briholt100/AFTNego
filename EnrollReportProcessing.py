@@ -1,0 +1,57 @@
+f_loc = r"C:\Documents and Settings\brian\My Documents\My Data Sources\practice\SVIWinter2013Enrollments.csv"
+outfile_store = r"C:\Documents and Settings\brian\My Documents\My Data Sources\practice\TidySviWinter2013Enrollments.csv"
+Parse_Folder =r"C:\Documents and Settings\brian\My Documents\My Data Sources\practice"
+needs_work=[] 
+
+"""Okay, I've got a list of file names that need to be iteratively run through my parser."""
+
+
+def identify_untidy():
+    """this searches and returns .csv files that have no 'tidy' in the filename and appends to a list, 'needs_work'."""
+    import os,re
+    file_list = os.listdir(Parse_Folder)
+    for f in file_list:
+        if "Tidy" not in f:      ###alternatively, this works:  if not re.match('^Tidy',f):####
+            if ".csv" in f:
+                needs_work.append(f)
+        
+
+def filename_Parser(fileAddress):
+    """takes a string file location and pulls out 2 variable names from the filename, Quarter and campus.  These will be fed to the file_tidy""" 
+    import re
+    import ntpath
+    campusList= ["North","South","Central","SVI"]
+    quarterList = ["Fall","Winter","Spring","Summer"]
+    fileName = ntpath.basename(fileAddress)
+    yearMatch = re.search("[0-9]{4}",fileName)
+    year = yearMatch.group(0)
+    for c in campusList:            
+        if c in fileName:
+            campus = c
+    for q in quarterList:            
+        if q in fileName:
+            quarter = q
+    quarterCampus = [quarter, year, campus]
+    return quarterCampus
+                        
+def file_tidy(f_loc):
+    """This definition is longer than necessary, but it works. It creates a new outfile 
+    that includes only the raw data, but prefixes these lines with the 
+    campus and quarter info from filename_Parser above"""
+    import re
+    prefix = filename_Parser(f_loc)[0], filename_Parser(f_loc)[1]+","+filename_Parser(f_loc)[2] + ","
+    with open(f_loc,) as infile, open(outfile_store, "w") as outfile: # <<==
+        while True:
+            line=infile.readline()
+            if not line: break
+            match = re.findall("^[0-9]{4}",line)
+            if match:
+                outfile.write("Winter 2013,SVI,"+line) # <<==  I must use the fileNameParser to obtain these values
+        infile.close()
+
+def file_length(f_loc):
+    """counts the number of lines in a file"""
+    with open(f_loc) as f:
+        for i, l in enumerate(f):
+            pass
+    return i + 1
