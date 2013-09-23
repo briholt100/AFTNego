@@ -6,8 +6,8 @@
 """  Next step is to create an input request for the following 3 file addresses"""
 
 f_loc = r"C:\Documents and Settings\brian\My Documents\My Data Sources\practice\CentralWinter2013Enrollments.csv"
-outfile_store = r"C:\Documents and Settings\brian\My Documents\My Data Sources\practice\TidyEnrollments.csv"
-Parse_Folder =r"C:\Documents and Settings\brian\My Documents\My Data Sources\practice"
+outfile_store = r"I:\My Data Sources\AFT Data\toTidy\TidyEnrollments.csv"
+Parse_Folder =r"I:\My Data Sources\AFT Data\toTidy"
 needs_work=[] 
 
 def identify_untidy(Parse_Folder):
@@ -40,7 +40,7 @@ def filename_Parser(fileAddress):
     quarterCampus = [quarter, year, campus]
     return quarterCampus
                         
-def file_tidy(f_loc,outfile_store = r"C:\Documents and Settings\brian\My Documents\My Data Sources\practice\TidyEnrollments.csv"):
+def file_tidy(f_loc, outfile_store): #= r"C:\Documents and Settings\brian\My Documents\My Data Sources\practice\TidyEnrollments.csv"):
     """This definition is longer than necessary, but it works. It creates a new outfile 
     that includes only the raw data, but prefixes these lines with the 
     campus and quarter info from filename_Parser above"""
@@ -75,7 +75,7 @@ new outfile with "Tidy" in the file name."""
 def tidy():
     for untidy_filename in identify_untidy(Parse_Folder):
         print untidy_filename
-        file_tidy(Parse_Folder + "\\" + untidy_filename)
+        file_tidy(Parse_Folder + "\\" + untidy_filename, outfile_store)
         print file_length(Parse_Folder + "\\" + untidy_filename)
 
 
