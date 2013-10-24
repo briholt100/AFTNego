@@ -1,4 +1,3 @@
-
 #testing:
 #file_tidy(f_loc,outfile_store = r"C:\Documents and Settings\brian\My Documents\My Data Sources\practice\TidyCentralWinter2013Enrollments.csv")
 
