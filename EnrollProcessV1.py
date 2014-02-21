@@ -1,5 +1,4 @@
 <<<<<<< HEAD
-<<<<<<< HEAD
 #
 #1 put csv files into folder to tidy
 #2 make sure files are correctly named:  CampusQuarterYearEnrollments.csv eg:   NorthFall2012Enrollments
@@ -14,27 +13,18 @@
 
 """ Next step is to create an input request for the following 3 file addresses"""
 =======
-=======
->>>>>>> fd587750a135e8adb05b626abd2ca862396a107b
 #testing:
 #file_tidy(f_loc,outfile_store = r"C:\Documents and Settings\brian\My Documents\My Data Sources\practice\TidyCentralWinter2013Enrollments.csv")
 
 
 """  Next step is to create an input request for the following 3 file addresses"""
-<<<<<<< HEAD
->>>>>>> fd587750a135e8adb05b626abd2ca862396a107b
-=======
 >>>>>>> fd587750a135e8adb05b626abd2ca862396a107b
 
 f_loc = r"C:\Documents and Settings\brian\My Documents\My Data Sources\practice\CentralWinter2013Enrollments.csv"
 outfile_store = r"I:\My Data Sources\AFT Data\toTidy\TidyEnrollments.csv"
 Parse_Folder =r"I:\My Data Sources\AFT Data\toTidy"
 <<<<<<< HEAD
-<<<<<<< HEAD
 needs_work=[]
-=======
-needs_work=[] 
->>>>>>> fd587750a135e8adb05b626abd2ca862396a107b
 =======
 needs_work=[] 
 >>>>>>> fd587750a135e8adb05b626abd2ca862396a107b
@@ -45,11 +35,7 @@ def identify_untidy(Parse_Folder):
     file_list = os.listdir(Parse_Folder)
     for f in file_list:
 <<<<<<< HEAD
-<<<<<<< HEAD
         if "Tidy" not in f: ###alternatively, this works: if not re.match('^Tidy',f):####
-=======
-        if "Tidy" not in f:      ###alternatively, this works:  if not re.match('^Tidy',f):####
->>>>>>> fd587750a135e8adb05b626abd2ca862396a107b
 =======
         if "Tidy" not in f:      ###alternatively, this works:  if not re.match('^Tidy',f):####
 >>>>>>> fd587750a135e8adb05b626abd2ca862396a107b
@@ -59,15 +45,9 @@ def identify_untidy(Parse_Folder):
 
 def filename_Parser(fileAddress):
 <<<<<<< HEAD
-<<<<<<< HEAD
     """takes a string of a fileAddress (location) that includes the
 filename and pulls out 2 variable names from the filename itself, Quarter and campus.
 These will be fed to the file_tidy"""
-=======
-    """takes a string of a fileAddress (location) that includes the 
-    filename and pulls out 2 variable names from the filename itself, Quarter and campus.  
-    These will be fed to the file_tidy""" 
->>>>>>> fd587750a135e8adb05b626abd2ca862396a107b
 =======
     """takes a string of a fileAddress (location) that includes the 
     filename and pulls out 2 variable names from the filename itself, Quarter and campus.  
@@ -81,21 +61,15 @@ These will be fed to the file_tidy"""
     yearMatch = re.search("[0-9]{4}",fileName) #this command creates an object, requiring the next step below using the .group function
     year = yearMatch.group(0) #isolates the year
 <<<<<<< HEAD
-<<<<<<< HEAD
     for c in campusList: #for each item in ["North","South","Central","SVI"]...
         if c in fileName: #then campus will be assigned the value 'c'
             campus = c
     for q in quarterList:
 =======
-=======
->>>>>>> fd587750a135e8adb05b626abd2ca862396a107b
     for c in campusList: #for each item in  ["North","South","Central","SVI"]...
         if c in fileName:  #then campus will be assigned the value 'c'
             campus = c
     for q in quarterList:            
-<<<<<<< HEAD
->>>>>>> fd587750a135e8adb05b626abd2ca862396a107b
-=======
 >>>>>>> fd587750a135e8adb05b626abd2ca862396a107b
         if q in fileName:
             quarter = q
@@ -104,15 +78,9 @@ These will be fed to the file_tidy"""
                         
 def file_tidy(f_loc, outfile_store): #= r"C:\Documents and Settings\brian\My Documents\My Data Sources\practice\TidyEnrollments.csv"):
 <<<<<<< HEAD
-<<<<<<< HEAD
     """This definition is longer than necessary, but it works. It creates a new outfile
 that includes only the raw data, but prefixes these lines with the
 campus and quarter info from filename_Parser above"""
-=======
-    """This definition is longer than necessary, but it works. It creates a new outfile 
-    that includes only the raw data, but prefixes these lines with the 
-    campus and quarter info from filename_Parser above"""
->>>>>>> fd587750a135e8adb05b626abd2ca862396a107b
 =======
     """This definition is longer than necessary, but it works. It creates a new outfile 
     that includes only the raw data, but prefixes these lines with the 
@@ -126,15 +94,9 @@ campus and quarter info from filename_Parser above"""
            #line=line.replace('\xa0', '').encode('utf-8')
             if not line: break
 <<<<<<< HEAD
-<<<<<<< HEAD
             match = re.findall("^[0-9]{1,4}",line) #the wanted data in these file begins with a 4 digit item code. No other lines have this bx.
             if match:
                 outfile.write(prefix + line) # <<== I must use the fileNameParser to obtain these values. This writes the new string info to the beginning of each wanted line and saves to outfile, which points to the actual output-filename at top of code
-=======
-            match = re.findall("^[0-9]{1,4}",line) #the wanted data in these file begins with a 4 digit item code.  No other lines have this bx.
-            if match:  
-                outfile.write(prefix + line) # <<==  I must use the fileNameParser to obtain these values.  This writes the new string info to the beginning of each wanted line and saves to outfile, which points to the actual output-filename at top of code
->>>>>>> fd587750a135e8adb05b626abd2ca862396a107b
 =======
             match = re.findall("^[0-9]{1,4}",line) #the wanted data in these file begins with a 4 digit item code.  No other lines have this bx.
             if match:  
@@ -157,11 +119,7 @@ def file_length(f_loc):
 3. identify_untidy(Parse_Folder) which returns a list of filenames (csv) that need tidying (the adding of campus and quarter)
 
 <<<<<<< HEAD
-<<<<<<< HEAD
 So, something that takes the return of file_tidy, and then loops through each returned fileAddress and creates a
-=======
-So, something  that takes  the return of file_tidy, and then loops through each returned fileAddress and creates a 
->>>>>>> fd587750a135e8adb05b626abd2ca862396a107b
 =======
 So, something  that takes  the return of file_tidy, and then loops through each returned fileAddress and creates a 
 >>>>>>> fd587750a135e8adb05b626abd2ca862396a107b
@@ -174,11 +132,6 @@ def tidy():
         print file_length(Parse_Folder + "\\" + untidy_filename)
 
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-
->>>>>>> fd587750a135e8adb05b626abd2ca862396a107b
 =======
 
 
