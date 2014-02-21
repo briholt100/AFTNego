@@ -49,6 +49,7 @@ def file_tidy(f_loc, outfile_store): #= r"C:\Documents and Settings\brian\My Doc
     with open(f_loc,) as infile, open(outfile_store, "a") as outfile: # infile and outfile are temp/local variables
         while True:
             line=infile.readline() #this reads each and every line of file into a variable "line"
+           #line=line.replace('\xa0', '').encode('utf-8')
             if not line: break
             match = re.findall("^[0-9]{1,4}",line) #the wanted data in these file begins with a 4 digit item code.  No other lines have this bx.
             if match:  

@@ -1,0 +1,5811 @@
+<html><head><style type ='text/css'><!-- .date{FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: arial,helvetica;} .head{FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: white; FONT-FAMILY: arial,helvetica;} .cancelled{FONT-SIZE: 8pt; COLOR: black; FONT-FAMILY: arial,helvetica; TEXT-DECORATION: line-through;} .headline{FONT-WEIGHT: bold; FONT-SIZE: 20pt; COLOR: #666666; FONT-FAMILY: arial,helvetica;}.open{FONT-SIZE: 8pt; COLOR: black; FONT-FAMILY: arial,helvetica;} .small{FONT-SIZE: 8pt; COLOR: #666666; FONT-FAMILY: Arial,Helvetica,Sans-Serif;} .subhead{FONT-WEIGHT: bold; FONT-SIZE: 14pt; COLOR: #666666; FONT-FAMILY: arial,helvetica;} --></style></head><body><div><strong><span id="lblQuarter">SUMMER 13</span></strong> :
+        <span id="lblDateTime" class="date">10/17/2013 11:53:19 AM</span>
+        
+        <br /><br />
+        Report Title: <strong><span id="lblReportTitle">All Classes</span></strong>
+        <span id="lblNonCancelled"></span><br />
+
+        
+            
+            
+            
+        
+          
+        <br />
+            
+        <div id="pnlHeading">
+	
+			
+			<span id="lblHeadingDefault">
+				<span style="color:#016597; font-weight:bold; font-size: 14px;">Non-Clustered Classes:</span>
+				</span>
+            
+            
+            
+</div>
+
+
+    
+            
+            <table cellspacing='0' cellpadding='2' width='100%'>
+                
+                <tr bgcolor="#016597">
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center; width: 36px; ">Item</td>
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center; width: 85px; ">Course ID</td> 
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; ">Title</td>
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center;  width: 20px;">CR</td>
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center;  min-width: 52px;">Days</td>
+                    <td class="head" colspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center; border-bottom: solid 1px #FFFFFF; ">Class Time</td>
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center;  width: 60px;">Room</td>
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center; ">Instructor</td>
+                    <td class="head" rowspan="2" colspan="3" style="padding-top: 0; padding-bottom: 0; text-align: center; ">Enrolled</td>
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center; width: 24px; font-size: 11px;">Wait<br />List</td>
+                    <td class="head" colspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center; border-bottom: solid 1px #FFFFFF; ">FTES</td>
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center; display: none;"></td>
+                    </tr>
+
+                <tr bgcolor="#016597">
+					<td class="head" style="padding-top: 1px; padding-bottom: 1px; text-align: center; width: 52px;  font-size: 9px;">Start</td>
+					<td class="head" style="padding-top: 1px; padding-bottom: 1px; text-align: center; width: 52px;  font-size: 9px;">End</td>
+                    <td class="head" style="padding-top: 1px; padding-bottom: 1px; text-align: center; width: 24px;  font-size: 9px;">TOTAL</td>
+                    <td class="head" style="padding-top: 1px; padding-bottom: 1px; text-align: center; width: 24px;  font-size: 9px;">STATE</td>
+                    </tr>
+        
+        
+            
+            <div id="rptNonClusterRpt_ctl01_classStatus">
+                <tr id="rptNonClusterRpt_ctl01_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        3818
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						AHD  190  &nbsp;01  </td>
+	<td style="">JOB SEEKING SKILLS I    </td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl01_lblCredit">2</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl01_lbldays">MTWTh</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl01_lblStartTime">08:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl01_lblEndTime">03:00 PM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl01_lblRoom">SVI0414</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl01_Instructor">Camden m    </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>14</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">20</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl01_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl01_FTE">1.4</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl01_FTE_state">1.4</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl03_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl03_row" class="open">
+	<td style="text-align: center;">
+					    3819
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						AHD  192  &nbsp;01  </td>
+	<td style="text-align: left;">DENTAL ASST MAN CLINICAL</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl03_lblCredit">16</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl03_lbldays">DAILY</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl03_lblStartTime">08:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl03_lblEndTime">03:00 PM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl03_lblRoom">SVI0404</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl03_Instructor">Wright,rober</span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>14</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">20</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl03_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl03_FTE">15.4</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl03_FTE_state">15.4</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            
+        
+            
+            <div id="rptNonClusterRpt_ctl05_classStatus">
+                <tr id="rptNonClusterRpt_ctl05_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        4100
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						AHL  100  &nbsp;03  </td>
+	<td style="">STRAT FOR SUCCESS MA STU</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl05_lblCredit">1</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl05_lbldays">Th</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl05_lblStartTime">11:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl05_lblEndTime">12:30 PM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl05_lblRoom">SVI0516</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl05_Instructor">Lichty, deni</span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>21</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">30</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl05_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl05_FTE">1.4</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl05_FTE_state">1.4</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl07_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl07_row" class="open">
+	<td style="text-align: center;">
+					    4628
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						AHL  101  &nbsp;02  </td>
+	<td style="text-align: left;">HEALTH CARE PROVIDER CPR</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl07_lblCredit">0</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl07_lbldays">M</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl07_lblStartTime">08:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl07_lblEndTime">05:00 PM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl07_lblRoom">SVI0601</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl07_Instructor">Thompson, p </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>9</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">12</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl07_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl07_FTE">0.3</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl07_FTE_state">0.3</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            
+        
+            
+            <div id="rptNonClusterRpt_ctl09_classStatus">
+                <tr id="rptNonClusterRpt_ctl09_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        4118
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						AHL  101  &nbsp;01  </td>
+	<td style="">HEALTH CARE PROVIDER CPR</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl09_lblCredit">0</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl09_lbldays">MTh</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl09_lblStartTime">08:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl09_lblEndTime">04:00 PM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl09_lblRoom">SVI0601</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl09_Instructor">Thompson, p </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>12</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">12</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl09_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl09_FTE">0.4</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl09_FTE_state">0.4</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl11_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl11_row" class="open">
+	<td style="text-align: center;">
+					    4630
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						AHL  101  &nbsp;04  </td>
+	<td style="text-align: left;">HEALTH CARE PROVIDER CPR</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl11_lblCredit">0</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl11_lbldays">MTh</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl11_lblStartTime">08:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl11_lblEndTime">04:00 PM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl11_lblRoom">SVI0601</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl11_Instructor">Thompson, p </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>8</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">12</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl11_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl11_FTE">0.3</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl11_FTE_state">0.3</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            
+        
+            
+            <div id="rptNonClusterRpt_ctl13_classStatus">
+                <tr id="rptNonClusterRpt_ctl13_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        4629
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						AHL  101  &nbsp;03  </td>
+	<td style="">HEALTH CARE PROVIDER CPR</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl13_lblCredit">0</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl13_lbldays">M</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl13_lblStartTime">08:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl13_lblEndTime">05:00 PM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl13_lblRoom">SVI0601</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl13_Instructor">Thompson, p </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>7</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">12</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl13_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl13_FTE">0.2</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl13_FTE_state">0.2</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl15_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl15_row" class="open">
+	<td style="text-align: center;">
+					    4627
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						AHL  105  &nbsp;02  </td>
+	<td style="text-align: left;">HIV/AIDS TRAINING       </td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl15_lblCredit">0</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl15_lbldays">M</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl15_lblStartTime">08:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl15_lblEndTime">03:30 PM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl15_lblRoom">SVI0601</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl15_Instructor">Thompson, p </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>16</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">30</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl15_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl15_FTE">0.5</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl15_FTE_state">0.5</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            
+        
+            
+            <div id="rptNonClusterRpt_ctl17_classStatus">
+                <tr id="rptNonClusterRpt_ctl17_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        4117
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						AHL  105  &nbsp;01  </td>
+	<td style="">HIV/AIDS TRAINING       </td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl17_lblCredit">0</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl17_lbldays">MW</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl17_lblStartTime">08:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl17_lblEndTime">03:30 PM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl17_lblRoom">SVI0601</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl17_Instructor">Thompson, p </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>18</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">30</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl17_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl17_FTE">0.6</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl17_FTE_state">0.6</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl19_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl19_row" class="open">
+	<td style="text-align: center;">
+					    4102
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						AHL  111  &nbsp;01  </td>
+	<td style="text-align: left;">ANAT/PHYSIOLOGY/PATHO I </td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl19_lblCredit">6</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl19_lbldays">MTWTh</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl19_lblStartTime">09:30 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl19_lblEndTime">11:30 AM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl19_lblRoom">SVI0416</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl19_Instructor">Cox, pamela </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>24</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">25</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl19_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl19_FTE">9.6</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl19_FTE_state">9.2</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            
+        
+            
+            <div id="rptNonClusterRpt_ctl21_classStatus">
+                <tr id="rptNonClusterRpt_ctl21_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        4107
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						AHL  112  &nbsp;01  </td>
+	<td style="">ANAT/PHYSIOLOGY/PATHO II</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl21_lblCredit">6</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl21_lbldays">MW</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl21_lblStartTime">11:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl21_lblEndTime">04:00 PM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl21_lblRoom">SVI0416</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl21_Instructor">Cox, pamela </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>21</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">25</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl21_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl21_FTE">8.4</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl21_FTE_state">8.4</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl23_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl23_row" class="open">
+	<td style="text-align: center;">
+					    4103
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						AHL  113  &nbsp;01  </td>
+	<td style="text-align: left;">MEDICAL TERMINOLOGY     </td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl23_lblCredit">6</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl23_lbldays">MTWTh</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl23_lblStartTime">08:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl23_lblEndTime">09:30 AM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl23_lblRoom">SVI0416</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl23_Instructor">Cox, pamela </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>24</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">25</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl23_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl23_FTE">9.6</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl23_FTE_state">9.6</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            
+        
+            
+            <div id="rptNonClusterRpt_ctl25_classStatus">
+                <tr id="rptNonClusterRpt_ctl25_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        4114
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						AHL  123  &nbsp;01  </td>
+	<td style="">INSURANCE AND CODING    </td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl25_lblCredit">2</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl25_lbldays">MW</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl25_lblStartTime">11:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl25_lblEndTime">12:30 PM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl25_lblRoom">SVI0417</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl25_Instructor">Ouattara, ga</span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>13</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">25</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl25_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl25_FTE">1.7</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl25_FTE_state">1.7</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl27_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl27_row" class="open">
+	<td style="text-align: center;">
+					    4112
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						AHL  124  &nbsp;01  </td>
+	<td style="text-align: left;">MEDICAL OFFICE FINANCES </td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl27_lblCredit">2</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl27_lbldays">MW</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl27_lblStartTime">09:30 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl27_lblEndTime">11:00 AM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl27_lblRoom">SVI0505</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl27_Instructor">Villars, d  </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>13</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">25</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl27_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl27_FTE">2.2</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl27_FTE_state">2.2</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            
+        
+            
+            <div id="rptNonClusterRpt_ctl29_classStatus">
+                <tr id="rptNonClusterRpt_ctl29_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        4120
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						AHL  125  &nbsp;01  </td>
+	<td style="">MEDICAL OFFICE SIMULATIO</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl29_lblCredit">2</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl29_lbldays">MTWTh</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl29_lblStartTime">08:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl29_lblEndTime">09:30 AM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl29_lblRoom">SVI0505</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl29_Instructor">Villars, d  </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>19</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">25</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl29_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl29_FTE">3.2</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl29_FTE_state">3.2</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl31_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl31_row" class="open">
+	<td style="text-align: center;">
+					    4106
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						AHL  126  &nbsp;01  </td>
+	<td style="text-align: left;">RECEPTION/SCHED/MED RECD</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl31_lblCredit">2</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl31_lbldays">TTh</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl31_lblStartTime">09:30 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl31_lblEndTime">11:00 AM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl31_lblRoom">SVI0410</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl31_Instructor">Ouattara, ga</span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>19</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">25</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl31_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl31_FTE">2.5</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl31_FTE_state">2.5</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            
+        
+            
+            <div id="rptNonClusterRpt_ctl33_classStatus">
+                <tr id="rptNonClusterRpt_ctl33_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        4119
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						AHL  128  &nbsp;01  </td>
+	<td style="">LAW AND ETHICS          </td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl33_lblCredit">3</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl33_lbldays">MTWTh</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl33_lblStartTime">09:30 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl33_lblEndTime">11:00 AM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl33_lblRoom">SVI0601</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl33_Instructor">Rullan, brya</span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>19</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">25</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl33_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl33_FTE">3.8</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl33_FTE_state">3.8</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl35_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl35_row" class="open">
+	<td style="text-align: center;">
+					    4111
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						AHL  142  &nbsp;01  </td>
+	<td style="text-align: left;">MEDICAL COMPUTER APPL   </td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl35_lblCredit">2</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl35_lbldays">MW</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl35_lblStartTime">02:30 PM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl35_lblEndTime">04:00 PM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl35_lblRoom">SVI0505</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl35_Instructor">Villars, d  </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>13</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">25</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl35_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl35_FTE">1.7</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl35_FTE_state">1.7</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            
+        
+            
+            <div id="rptNonClusterRpt_ctl37_classStatus">
+                <tr id="rptNonClusterRpt_ctl37_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        4113
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						AHL  161  &nbsp;01  </td>
+	<td style="">PHARMACOLOGY PRINCIPLES </td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl37_lblCredit">2</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl37_lbldays">TTh</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl37_lblStartTime">08:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl37_lblEndTime">09:30 AM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl37_lblRoom">SVI0417</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl37_Instructor">Blazina,s   </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>13</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">25</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl37_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl37_FTE">2.2</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl37_FTE_state">2.2</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl39_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl39_row" class="open">
+	<td style="text-align: center;">
+					    4109
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						AHL  180  &nbsp;01  </td>
+	<td style="text-align: left;">CLINICAL I              </td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl39_lblCredit">8</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl39_lbldays">MW</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl39_lblStartTime">09:30 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl39_lblEndTime">04:00 PM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl39_lblRoom">SVI0409</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl39_Instructor">Pena, jaime </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>19</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">25</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl39_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl39_FTE">10.1</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl39_FTE_state">10.1</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            <div id="rptNonClusterRpt_ctl40_rowSeparator">
+	
+			    <!-- separatorStart -->
+			    
+			    <tr bgcolor="white">
+					<td colspan="15">&nbsp;</td>
+					</tr>
+				
+				<tr bgcolor="#016597">
+					<td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center; width: 36px; ">Item</td>
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center; width: 85px; ">Course ID</td> 
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; ">Title</td>
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center;  width: 20px;">CR</td>
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center;  min-width: 52px;">Days</td>
+                    <td class="head" colspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center; border-bottom: solid 1px #FFFFFF; ">Class Time</td>
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center;  width: 60px;">Room</td>
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center; ">Instructor</td>
+                    <td class="head" rowspan="2" colspan="3" style="padding-top: 0; padding-bottom: 0; text-align: center; ">Enrolled</td>
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center; width: 24px; font-size: 10px;">Wait<br />List</td>
+                    <td class="head" colspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center; border-bottom: solid 1px #FFFFFF; ">FTES</td>
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center; display: none;"></td>
+                    </tr>
+
+                <tr bgcolor="#016597">
+					<td class="head" style="padding-top: 1px; padding-bottom: 1px; text-align: center;  font-size: 9px; width: 52px;">Start</td>
+					<td class="head" style="padding-top: 1px; padding-bottom: 1px; text-align: center;  font-size: 9px; width: 52px;">End</td>
+                    <td class="head" style="padding-top: 1px; padding-bottom: 1px; text-align: center;  font-size: 9px;">TOTAL</td>
+                    <td class="head" style="padding-top: 1px; padding-bottom: 1px; text-align: center;  font-size: 9px;">STATE</td>
+                    </tr>
+
+			    <!-- separatorEnd -->
+			    
+	        
+</div>
+        
+            
+            <div id="rptNonClusterRpt_ctl41_classStatus">
+                <tr id="rptNonClusterRpt_ctl41_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        4110
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						AHL  183  &nbsp;01  </td>
+	<td style="">CLINICAL II             </td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl41_lblCredit">8</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl41_lbldays">TTh</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl41_lblStartTime">09:30 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl41_lblEndTime">04:00 PM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl41_lblRoom">SVI0417</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl41_Instructor">Blazina,s   </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>13</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">25</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl41_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl41_FTE">6.9</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl41_FTE_state">6.9</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl43_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl43_row" class="open">
+	<td style="text-align: center;">
+					    4116
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						AHL  190  &nbsp;01  </td>
+	<td style="text-align: left;">CLINICAL REVIEW EXAM PRP</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl43_lblCredit">8</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl43_lbldays">MTWTh</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl43_lblStartTime">11:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl43_lblEndTime">04:00 PM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl43_lblRoom">SVI0601</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl43_Instructor">Rullan, brya</span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>19</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">25</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl43_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl43_FTE">10.8</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl43_FTE_state">10.8</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            
+        
+            
+            <div id="rptNonClusterRpt_ctl45_classStatus">
+                <tr id="rptNonClusterRpt_ctl45_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        4121
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						AHL  192  &nbsp;01  </td>
+	<td style="">MED ASSIST MAND CLINICAL</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl45_lblCredit">5</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl45_lbldays">TWThF</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl45_lblStartTime">08:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl45_lblEndTime">05:00 PM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl45_lblRoom">OCC0000</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl45_Instructor">Rullan, brya</span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>20</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">15</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl45_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl45_FTE">6.7</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl45_FTE_state">6.7</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl47_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl47_row" class="open">
+	<td style="text-align: center;">
+					    4105
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						BCT  111  &nbsp;03  </td>
+	<td style="text-align: left;">COMP LITERACY APPL FUND </td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl47_lblCredit">2</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl47_lbldays">MTWTh</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl47_lblStartTime">02:30 PM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl47_lblEndTime">04:00 PM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl47_lblRoom">SVI0410</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl47_Instructor">Ferguson t  </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>21</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">30</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl47_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl47_FTE">2.8</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl47_FTE_state">2.8</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            
+        
+            
+            <div id="rptNonClusterRpt_ctl49_classStatus">
+                <tr id="rptNonClusterRpt_ctl49_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        3552
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						BCT  111  &nbsp;01  </td>
+	<td style="">COMP LITERACY APPL FUND </td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl49_lblCredit">2</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl49_lbldays">MTWTh</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl49_lblStartTime">08:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl49_lblEndTime">09:30 AM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl49_lblRoom">SVI0509</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl49_Instructor">Ferguson t  </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>17</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">30</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl49_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl49_FTE">4.0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl49_FTE_state">4.0</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl51_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl51_row" class="open">
+	<td style="text-align: center;">
+					    3474
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						BCT  123  &nbsp;01  </td>
+	<td style="text-align: left;">SPREADSHEETS            </td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl51_lblCredit">2</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl51_lbldays">MTWTh</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl51_lblStartTime">01:00 PM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl51_lblEndTime">02:30 PM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl51_lblRoom">SVI0507</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl51_Instructor">Ferguson t  </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>10</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">30</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl51_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl51_FTE">1.3</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl51_FTE_state">1.3</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            
+        
+            
+            <div id="rptNonClusterRpt_ctl53_classStatus">
+                <tr id="rptNonClusterRpt_ctl53_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        3475
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						BCT  124  &nbsp;01  </td>
+	<td style="">SPREADSHEET PRODUCTION  </td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl53_lblCredit">1</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl53_lbldays">MTWTh</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl53_lblStartTime">11:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl53_lblEndTime">12:30 PM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl53_lblRoom">SVI0505</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl53_Instructor">Juanich, g  </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>11</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">30</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl53_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl53_FTE">0.7</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl53_FTE_state">0.7</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl55_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl55_row" class="open">
+	<td style="text-align: center;">
+					    3555
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						BCT  130  &nbsp;01  </td>
+	<td style="text-align: left;">WORD PROCESSING         </td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl55_lblCredit">4</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl55_lbldays">MTWTh</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl55_lblStartTime">11:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl55_lblEndTime">12:30 PM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl55_lblRoom">SVI0509</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl55_Instructor">Mcelhiney,j </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>16</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">30</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl55_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl55_FTE">7.5</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl55_FTE_state">7.0</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            
+        
+            
+            <div id="rptNonClusterRpt_ctl57_classStatus">
+                <tr id="rptNonClusterRpt_ctl57_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        4108
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						BCT  130  &nbsp;01  </td>
+	<td style="">WORD PROCESSING         </td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl57_lblCredit">4</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl57_lbldays">MTWTh</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl57_lblStartTime">08:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl57_lblEndTime">09:30 AM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl57_lblRoom">SVI0410</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl57_Instructor">Getahun, y  </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>22</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">30</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl57_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl57_FTE">5.9</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl57_FTE_state">5.6</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl59_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl59_row" class="open">
+	<td style="text-align: center;">
+					    3473
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						BCT  131  &nbsp;01  </td>
+	<td style="text-align: left;">WORD PROCESSING PRODUCTN</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl59_lblCredit">1</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl59_lbldays">MTWTh</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl59_lblStartTime">11:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl59_lblEndTime">12:30 PM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl59_lblRoom">SVI0505</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl59_Instructor">Juanich, g  </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>11</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">30</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl59_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl59_FTE">0.7</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl59_FTE_state">0.7</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            
+        
+            
+            <div id="rptNonClusterRpt_ctl61_classStatus">
+                <tr id="rptNonClusterRpt_ctl61_row" class="cancelled" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        3569
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						BCT  198  &nbsp;01  </td>
+	<td style="">IND STUDY SPREADSHEETS  </td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl61_lblCredit">1</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl61_lbldays">Arr</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl61_lblStartTime">AR:R   M</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl61_lblEndTime">AR:R   M</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl61_lblRoom">ARR</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl61_Instructor">Verheyden,n </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>0</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">10</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl61_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl61_FTE">0.0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl61_FTE_state">0.0</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl63_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl63_row" class="cancelled">
+	<td style="text-align: center;">
+					    3570
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						BCT  199  &nbsp;01  </td>
+	<td style="text-align: left;">IND STUDY WORD PROCESSNG</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl63_lblCredit">1</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl63_lbldays">Arr</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl63_lblStartTime">AR:R   M</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl63_lblEndTime">AR:R   M</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl63_lblRoom">ARR</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl63_Instructor">Verheyden,n </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>0</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">10</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl63_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl63_FTE">0.0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl63_FTE_state">0.0</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            
+        
+            
+            <div id="rptNonClusterRpt_ctl65_classStatus">
+                <tr id="rptNonClusterRpt_ctl65_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        4101
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						BOS  103  &nbsp;01  </td>
+	<td style="">KEYBOARDING SKILLS      </td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl65_lblCredit">3</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl65_lbldays">MTWTh</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl65_lblStartTime">11:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl65_lblEndTime">12:30 PM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl65_lblRoom">SVI0516</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl65_Instructor">Villars, d  </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>23</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">30</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl65_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl65_FTE">4.6</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl65_FTE_state">4.6</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl67_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl67_row" class="open">
+	<td style="text-align: center;">
+					    3551
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						BOS  103  &nbsp;01  </td>
+	<td style="text-align: left;">KEYBOARDING SKILLS      </td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl67_lblCredit">3</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl67_lbldays">MTWTh</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl67_lblStartTime">01:00 PM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl67_lblEndTime">02:30 PM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl67_lblRoom">SVI0509</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl67_Instructor">Villars, d  </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>14</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">30</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl67_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl67_FTE">2.8</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl67_FTE_state">2.8</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            
+        
+            
+            <div id="rptNonClusterRpt_ctl69_classStatus">
+                <tr id="rptNonClusterRpt_ctl69_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        3470
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						BOS  105  &nbsp;01  </td>
+	<td style="">KEYBOARDING APPLICATIONS</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl69_lblCredit">2</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl69_lbldays">MTWTh</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl69_lblStartTime">09:30 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl69_lblEndTime">11:00 AM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl69_lblRoom">SVI0505</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl69_Instructor">Villars, d  </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>10</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">30</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl69_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl69_FTE">1.7</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl69_FTE_state">1.7</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl71_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl71_row" class="open">
+	<td style="text-align: center;">
+					    3557
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						BOS  116  &nbsp;01  </td>
+	<td style="text-align: left;">MATH FUND AND TEN KEY   </td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl71_lblCredit">2</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl71_lbldays">MTWTh</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl71_lblStartTime">08:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl71_lblEndTime">09:30 AM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl71_lblRoom">SVI0503</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl71_Instructor">Juanich, g  </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>17</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">30</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl71_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl71_FTE">4.0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl71_FTE_state">4.0</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            
+        
+            
+            <div id="rptNonClusterRpt_ctl73_classStatus">
+                <tr id="rptNonClusterRpt_ctl73_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        3554
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						BOS  121  &nbsp;01  </td>
+	<td style="">OFF PROC COMP OFFICE MGT</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl73_lblCredit">2</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl73_lbldays">MTWTh</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl73_lblStartTime">09:30 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl73_lblEndTime">11:00 AM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl73_lblRoom">SVI0509</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl73_Instructor">Juanich, g  </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>17</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">30</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl73_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl73_FTE">4.0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl73_FTE_state">4.0</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl75_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl75_row" class="open">
+	<td style="text-align: center;">
+					    3476
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						BOS  180  &nbsp;01  </td>
+	<td style="text-align: left;">OFFICE SIMULATION       </td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl75_lblCredit">4</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl75_lbldays">MTWTh</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl75_lblStartTime">08:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl75_lblEndTime">11:00 AM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl75_lblRoom">SVI0507</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl75_Instructor">Juanich, g  </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>10</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">30</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl75_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl75_FTE">2.7</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl75_FTE_state">2.7</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            
+        
+            
+            <div id="rptNonClusterRpt_ctl77_classStatus">
+                <tr id="rptNonClusterRpt_ctl77_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        3471
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						BOS  181  &nbsp;01  </td>
+	<td style="">ADV OFFICE SIMULATION   </td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl77_lblCredit">6</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl77_lbldays">MTWTh</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl77_lblStartTime">11:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl77_lblEndTime">04:00 PM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl77_lblRoom">SVI0507</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl77_Instructor">Juanich, g  </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>11</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">30</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl77_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl77_FTE">4.0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl77_FTE_state">4.0</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl79_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl79_row" class="cancelled">
+	<td style="text-align: center;">
+					    4124
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						BOS  198  &nbsp;01  </td>
+	<td style="text-align: left;">IND STUDY OFFICE SIMULAT</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl79_lblCredit">4</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl79_lbldays">Arr</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl79_lblStartTime">AR:R   M</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl79_lblEndTime">AR:R   M</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl79_lblRoom">ARR</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl79_Instructor">Verheyden,n </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>0</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">10</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl79_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl79_FTE">0.0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl79_FTE_state">0.0</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            <div id="rptNonClusterRpt_ctl80_rowSeparator">
+	
+			    <!-- separatorStart -->
+			    
+			    <tr bgcolor="white">
+					<td colspan="15">&nbsp;</td>
+					</tr>
+				
+				<tr bgcolor="#016597">
+					<td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center; width: 36px; ">Item</td>
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center; width: 85px; ">Course ID</td> 
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; ">Title</td>
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center;  width: 20px;">CR</td>
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center;  min-width: 52px;">Days</td>
+                    <td class="head" colspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center; border-bottom: solid 1px #FFFFFF; ">Class Time</td>
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center;  width: 60px;">Room</td>
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center; ">Instructor</td>
+                    <td class="head" rowspan="2" colspan="3" style="padding-top: 0; padding-bottom: 0; text-align: center; ">Enrolled</td>
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center; width: 24px; font-size: 10px;">Wait<br />List</td>
+                    <td class="head" colspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center; border-bottom: solid 1px #FFFFFF; ">FTES</td>
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center; display: none;"></td>
+                    </tr>
+
+                <tr bgcolor="#016597">
+					<td class="head" style="padding-top: 1px; padding-bottom: 1px; text-align: center;  font-size: 9px; width: 52px;">Start</td>
+					<td class="head" style="padding-top: 1px; padding-bottom: 1px; text-align: center;  font-size: 9px; width: 52px;">End</td>
+                    <td class="head" style="padding-top: 1px; padding-bottom: 1px; text-align: center;  font-size: 9px;">TOTAL</td>
+                    <td class="head" style="padding-top: 1px; padding-bottom: 1px; text-align: center;  font-size: 9px;">STATE</td>
+                    </tr>
+
+			    <!-- separatorEnd -->
+			    
+	        
+</div>
+        
+            
+            <div id="rptNonClusterRpt_ctl81_classStatus">
+                <tr id="rptNonClusterRpt_ctl81_row" class="cancelled" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        4125
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						BOS  199  &nbsp;01  </td>
+	<td style="">IND STUDY KEYBOARD APPLN</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl81_lblCredit">2</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl81_lbldays">Arr</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl81_lblStartTime">AR:R   M</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl81_lblEndTime">AR:R   M</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl81_lblRoom">ARR</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl81_Instructor">Verheyden,n </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>0</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">10</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl81_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl81_FTE">0.0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl81_FTE_state">0.0</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl83_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl83_row" class="open">
+	<td style="text-align: center;">
+					    1501
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						BTS  090  &nbsp;01  </td>
+	<td style="text-align: left;">EDUCATIONAL PLANNING    </td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl83_lblCredit">1</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl83_lbldays">TWTh</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl83_lblStartTime">01:00 PM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl83_lblEndTime">05:00 PM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl83_lblRoom">SVI0310</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl83_Instructor">Jarrett, bar</span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>12</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">30</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl83_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl83_FTE">0.8</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl83_FTE_state">0.8</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            
+        
+            
+            <div id="rptNonClusterRpt_ctl85_classStatus">
+                <tr id="rptNonClusterRpt_ctl85_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        1508
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						BTS  090  &nbsp;08  </td>
+	<td style="">EDUCATIONAL PLANNING    </td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl85_lblCredit">1</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl85_lbldays">TWTh</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl85_lblStartTime">01:00 PM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl85_lblEndTime">05:00 PM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl85_lblRoom">SVI0310</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl85_Instructor">Jarrett, bar</span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>19</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">30</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl85_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl85_FTE">1.3</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl85_FTE_state">1.3</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl87_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl87_row" class="open">
+	<td style="text-align: center;">
+					    1503
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						BTS  090  &nbsp;03  </td>
+	<td style="text-align: left;">EDUCATIONAL PLANNING    </td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl87_lblCredit">1</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl87_lbldays">TWTh</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl87_lblStartTime">01:00 PM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl87_lblEndTime">05:00 PM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl87_lblRoom">SVI0310</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl87_Instructor">Jarrett, bar</span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>19</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">30</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl87_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl87_FTE">1.3</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl87_FTE_state">1.3</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            
+        
+            
+            <div id="rptNonClusterRpt_ctl89_classStatus">
+                <tr id="rptNonClusterRpt_ctl89_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        1506
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						BTS  090  &nbsp;06  </td>
+	<td style="">EDUCATIONAL PLANNING    </td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl89_lblCredit">1</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl89_lbldays">TWTh</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl89_lblStartTime">05:00 PM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl89_lblEndTime">09:00 PM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl89_lblRoom">SVI0310</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl89_Instructor">Jarrett, bar</span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>13</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">30</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl89_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl89_FTE">0.9</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl89_FTE_state">0.9</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl91_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl91_row" class="open">
+	<td style="text-align: center;">
+					    1509
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						BTS  090  &nbsp;09  </td>
+	<td style="text-align: left;">EDUCATIONAL PLANNING    </td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl91_lblCredit">1</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl91_lbldays">TWTh</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl91_lblStartTime">01:00 PM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl91_lblEndTime">05:00 PM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl91_lblRoom">SVI0310</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl91_Instructor">Jarrett, bar</span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>22</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">30</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl91_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl91_FTE">1.5</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl91_FTE_state">1.5</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            
+        
+            
+            <div id="rptNonClusterRpt_ctl93_classStatus">
+                <tr id="rptNonClusterRpt_ctl93_row" class="cancelled" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        1512
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						BTS  090  &nbsp;12  </td>
+	<td style="">EDUCATIONAL PLANNING    </td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl93_lblCredit">1</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl93_lbldays">TWTh</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl93_lblStartTime">01:00 PM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl93_lblEndTime">05:00 PM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl93_lblRoom">SVI0310</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl93_Instructor">Cancel 8/15 </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>0</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">30</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl93_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl93_FTE">0.0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl93_FTE_state">0.0</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl95_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl95_row" class="open">
+	<td style="text-align: center;">
+					    1502
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						BTS  090  &nbsp;02  </td>
+	<td style="text-align: left;">EDUCATIONAL PLANNING    </td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl95_lblCredit">1</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl95_lbldays">TWTh</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl95_lblStartTime">01:00 PM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl95_lblEndTime">05:00 PM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl95_lblRoom">SVI0310</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl95_Instructor">Jarrett, bar</span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>6</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">30</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl95_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl95_FTE">0.4</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl95_FTE_state">0.4</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            
+        
+            
+            <div id="rptNonClusterRpt_ctl97_classStatus">
+                <tr id="rptNonClusterRpt_ctl97_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        1505
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						BTS  090  &nbsp;05  </td>
+	<td style="">EDUCATIONAL PLANNING    </td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl97_lblCredit">1</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl97_lbldays">TWTh</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl97_lblStartTime">01:00 PM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl97_lblEndTime">05:00 PM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl97_lblRoom">SVI0310</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl97_Instructor">Jarrett, bar</span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>18</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">30</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl97_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl97_FTE">1.2</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl97_FTE_state">1.2</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl99_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl99_row" class="open">
+	<td style="text-align: center;">
+					    1510
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						BTS  090  &nbsp;10  </td>
+	<td style="text-align: left;">EDUCATIONAL PLANNING    </td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl99_lblCredit">1</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl99_lbldays">TWTh</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl99_lblStartTime">01:00 PM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl99_lblEndTime">05:00 PM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl99_lblRoom">SVI0310</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl99_Instructor">Jarrett, bar</span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>14</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">30</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl99_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl99_FTE">0.9</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl99_FTE_state">0.9</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            
+        
+            
+            <div id="rptNonClusterRpt_ctl101_classStatus">
+                <tr id="rptNonClusterRpt_ctl101_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        1511
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						BTS  090  &nbsp;11  </td>
+	<td style="">EDUCATIONAL PLANNING    </td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl101_lblCredit">1</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl101_lbldays">TWTh</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl101_lblStartTime">01:00 PM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl101_lblEndTime">05:00 PM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl101_lblRoom">SVI0310</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl101_Instructor">Jarrett, bar</span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>27</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">30</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl101_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl101_FTE">1.8</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl101_FTE_state">1.8</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl103_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl103_row" class="open">
+	<td style="text-align: center;">
+					    1504
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						BTS  090  &nbsp;04  </td>
+	<td style="text-align: left;">EDUCATIONAL PLANNING    </td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl103_lblCredit">1</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl103_lbldays">TWTh</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl103_lblStartTime">01:00 PM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl103_lblEndTime">05:00 PM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl103_lblRoom">SVI0310</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl103_Instructor">Jarrett, bar</span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>19</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">30</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl103_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl103_FTE">1.3</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl103_FTE_state">1.3</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            
+        
+            
+            <div id="rptNonClusterRpt_ctl105_classStatus">
+                <tr id="rptNonClusterRpt_ctl105_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        1507
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						BTS  090  &nbsp;07  </td>
+	<td style="">EDUCATIONAL PLANNING    </td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl105_lblCredit">1</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl105_lbldays">TWTh</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl105_lblStartTime">01:00 PM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl105_lblEndTime">05:00 PM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl105_lblRoom">SVI0310</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl105_Instructor">Jarrett, bar</span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>10</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">30</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl105_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl105_FTE">0.7</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl105_FTE_state">0.7</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl107_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl107_row" class="cancelled">
+	<td style="text-align: center;">
+					    1513
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						BTS  090  &nbsp;13  </td>
+	<td style="text-align: left;">EDUCATIONAL PLANNING    </td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl107_lblCredit">1</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl107_lbldays">TWTh</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl107_lblStartTime">05:00 PM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl107_lblEndTime">09:00 PM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl107_lblRoom">SVI0310</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl107_Instructor">Cancel 8/15 </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>0</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">30</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl107_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl107_FTE">0.0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl107_FTE_state">0.0</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            
+        
+            
+            <div id="rptNonClusterRpt_ctl109_classStatus">
+                <tr id="rptNonClusterRpt_ctl109_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        3549
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						COR  090  &nbsp;01  </td>
+	<td style="">FOUNDATIONS FOR SUCCESS </td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl109_lblCredit">1</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl109_lbldays">Arr</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl109_lblStartTime">AR:R   M</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl109_lblEndTime">AR:R   M</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl109_lblRoom">ARR</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl109_Instructor">Bailey, rose</span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>16</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">30</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl109_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl109_FTE">1.1</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl109_FTE_state">1.1</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl111_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl111_row" class="open">
+	<td style="text-align: center;">
+					    4099
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						COR  090  &nbsp;04  </td>
+	<td style="text-align: left;">FOUNDATIONS FOR SUCCESS </td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl111_lblCredit">1</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl111_lbldays">T</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl111_lblStartTime">01:00 PM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl111_lblEndTime">02:15 PM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl111_lblRoom">SVI0504</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl111_Instructor">Bailey, rose</span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>23</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">30</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl111_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl111_FTE">1.5</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl111_FTE_state">1.5</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            
+        
+            
+            <div id="rptNonClusterRpt_ctl113_classStatus">
+                <tr id="rptNonClusterRpt_ctl113_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        1720
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						COR  090  &nbsp;01  </td>
+	<td style="">FOUNDATIONS FOR SUCCESS </td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl113_lblCredit">1</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl113_lbldays">Th</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl113_lblStartTime">09:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl113_lblEndTime">10:05 AM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl113_lblRoom">SVI0310</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl113_Instructor">Brooks,gabri</span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>22</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">30</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl113_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl113_FTE">1.5</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl113_FTE_state">1.5</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl115_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl115_row" class="open">
+	<td style="text-align: center;">
+					    1721
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						COR  090  &nbsp;02  </td>
+	<td style="text-align: left;">FOUNDATIONS FOR SUCCESS </td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl115_lblCredit">1</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl115_lbldays">W</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl115_lblStartTime">09:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl115_lblEndTime">10:05 AM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl115_lblRoom">SVI0310</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl115_Instructor">Brooks,gabri</span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>18</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">30</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl115_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl115_FTE">1.2</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl115_FTE_state">1.2</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            
+        
+            
+            <div id="rptNonClusterRpt_ctl117_classStatus">
+                <tr id="rptNonClusterRpt_ctl117_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        5019
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						COR  090  &nbsp;05  </td>
+	<td style="">FOUNDATIONS FOR SUCCESS </td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl117_lblCredit">1</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl117_lbldays">W</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl117_lblStartTime">05:00 PM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl117_lblEndTime">07:00 PM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl117_lblRoom">SVI</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl117_Instructor">Bailey, rose</span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>19</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">30</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl117_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl117_FTE">1.3</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl117_FTE_state">1.3</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl119_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl119_row" class="open">
+	<td style="text-align: center;">
+					    3550
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						COR  101  &nbsp;01  </td>
+	<td style="text-align: left;">STRAT FOR SUCCESS AOP ST</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl119_lblCredit">1</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl119_lbldays">Th</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl119_lblStartTime">01:00 PM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl119_lblEndTime">02:30 PM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl119_lblRoom">SVI0505</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl119_Instructor">Lichty, deni</span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>14</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">30</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl119_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl119_FTE">1.7</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl119_FTE_state">1.7</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            <div id="rptNonClusterRpt_ctl120_rowSeparator">
+	
+			    <!-- separatorStart -->
+			    
+			    <tr bgcolor="white">
+					<td colspan="15">&nbsp;</td>
+					</tr>
+				
+				<tr bgcolor="#016597">
+					<td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center; width: 36px; ">Item</td>
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center; width: 85px; ">Course ID</td> 
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; ">Title</td>
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center;  width: 20px;">CR</td>
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center;  min-width: 52px;">Days</td>
+                    <td class="head" colspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center; border-bottom: solid 1px #FFFFFF; ">Class Time</td>
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center;  width: 60px;">Room</td>
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center; ">Instructor</td>
+                    <td class="head" rowspan="2" colspan="3" style="padding-top: 0; padding-bottom: 0; text-align: center; ">Enrolled</td>
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center; width: 24px; font-size: 10px;">Wait<br />List</td>
+                    <td class="head" colspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center; border-bottom: solid 1px #FFFFFF; ">FTES</td>
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center; display: none;"></td>
+                    </tr>
+
+                <tr bgcolor="#016597">
+					<td class="head" style="padding-top: 1px; padding-bottom: 1px; text-align: center;  font-size: 9px; width: 52px;">Start</td>
+					<td class="head" style="padding-top: 1px; padding-bottom: 1px; text-align: center;  font-size: 9px; width: 52px;">End</td>
+                    <td class="head" style="padding-top: 1px; padding-bottom: 1px; text-align: center;  font-size: 9px;">TOTAL</td>
+                    <td class="head" style="padding-top: 1px; padding-bottom: 1px; text-align: center;  font-size: 9px;">STATE</td>
+                    </tr>
+
+			    <!-- separatorEnd -->
+			    
+	        
+</div>
+        
+            
+            <div id="rptNonClusterRpt_ctl121_classStatus">
+                <tr id="rptNonClusterRpt_ctl121_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        3556
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						COR  120  &nbsp;01  </td>
+	<td style="">CUST SVC PROFESSIONALISM</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl121_lblCredit">3</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl121_lbldays">MTWTh</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl121_lblStartTime">09:30 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl121_lblEndTime">11:00 AM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl121_lblRoom">SVI0516</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl121_Instructor">Gilman, s   </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>17</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">30</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl121_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl121_FTE">6.0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl121_FTE_state">6.0</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl123_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl123_row" class="open">
+	<td style="text-align: center;">
+					    3553
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						COR  127  &nbsp;01  </td>
+	<td style="text-align: left;">BUS OFFICE COM & RESEARC</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl123_lblCredit">2</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl123_lbldays">MTWTh</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl123_lblStartTime">02:30 PM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl123_lblEndTime">04:00 PM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl123_lblRoom">SVI0516</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl123_Instructor">Gilman, s   </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>14</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">30</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl123_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl123_FTE">3.3</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl123_FTE_state">3.3</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            
+        
+            
+            <div id="rptNonClusterRpt_ctl125_classStatus">
+                <tr id="rptNonClusterRpt_ctl125_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        9416
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						COR  131  &nbsp;03  </td>
+	<td style="">EMPLOYMENT SKILLS       </td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl125_lblCredit">3</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl125_lbldays">MTWTh</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl125_lblStartTime">02:30 PM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl125_lblEndTime">04:00 PM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl125_lblRoom">SVI0517</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl125_Instructor">Gilman, s   </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>1</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">30</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl125_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl125_FTE">0.2</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl125_FTE_state">0.2</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl127_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl127_row" class="open">
+	<td style="text-align: center;">
+					    3472
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						COR  131  &nbsp;01  </td>
+	<td style="text-align: left;">EMPLOYMENT SKILLS       </td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl127_lblCredit">3</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl127_lbldays">MTWTh</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl127_lblStartTime">02:30 PM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl127_lblEndTime">04:00 PM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl127_lblRoom">SVI0517</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl127_Instructor">Ouattara, ga</span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>11</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">30</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl127_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl127_FTE">2.2</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl127_FTE_state">2.2</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            
+        
+            
+            <div id="rptNonClusterRpt_ctl129_classStatus">
+                <tr id="rptNonClusterRpt_ctl129_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        4115
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						COR  131  &nbsp;01  </td>
+	<td style="">EMPLOYMENT SKILLS       </td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl129_lblCredit">3</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl129_lbldays">MW</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl129_lblStartTime">08:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl129_lblEndTime">09:30 AM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl129_lblRoom">SVI0516</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl129_Instructor">Ouattara, ga</span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>15</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">30</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl129_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl129_FTE">3.0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl129_FTE_state">3.0</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl131_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl131_row" class="open">
+	<td style="text-align: center;">
+					    2803
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						COS  148  &nbsp;01  </td>
+	<td style="text-align: left;">INT TO CHEM HAIR DESIGN </td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl131_lblCredit">12</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl131_lbldays">W</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl131_lblStartTime">11:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl131_lblEndTime">07:00 PM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl131_lblRoom">OOC0000</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl131_Instructor">Lichty, deni</span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>13</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">20</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl131_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl131_FTE">10.8</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl131_FTE_state">10.8</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            
+        
+            
+            <div id="rptNonClusterRpt_ctl133_classStatus">
+                <tr id="rptNonClusterRpt_ctl133_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        2804
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						COS  149  &nbsp;01  </td>
+	<td style="">HAIR DESIGN PRACTICUM II</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl133_lblCredit">8</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl133_lbldays">MTTh</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl133_lblStartTime">09:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl133_lblEndTime">07:00 PM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl133_lblRoom">OOC0000</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl133_Instructor">Lichty, deni</span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>13</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">20</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl133_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl133_FTE">6.5</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl133_FTE_state">6.5</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl135_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl135_row" class="open">
+	<td style="text-align: center;">
+					    2808
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						COS  171  &nbsp;01  </td>
+	<td style="text-align: left;">PRINCIPLES SALON SHOP BS</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl135_lblCredit">4</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl135_lbldays">Th</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl135_lblStartTime">09:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl135_lblEndTime">02:00 PM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl135_lblRoom">OOC0000</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl135_Instructor">Danard,amy  </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>13</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">25</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl135_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl135_FTE">3.9</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl135_FTE_state">3.9</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            
+        
+            
+            <div id="rptNonClusterRpt_ctl137_classStatus">
+                <tr id="rptNonClusterRpt_ctl137_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        2809
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						COS  172  &nbsp;01  </td>
+	<td style="">EMPLOYMENT SKILLS       </td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl137_lblCredit">3</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl137_lbldays">Th</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl137_lblStartTime">02:00 PM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl137_lblEndTime">05:00 PM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl137_lblRoom">OOC0000</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl137_Instructor">Danard,amy  </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>13</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">25</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl137_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl137_FTE">2.6</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl137_FTE_state">2.6</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl139_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl139_row" class="open">
+	<td style="text-align: center;">
+					    2810
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						COS  173  &nbsp;01  </td>
+	<td style="text-align: left;">COMP COS PRACTICUM II   </td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl139_lblCredit">6</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl139_lbldays">MTW</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl139_lblStartTime">09:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl139_lblEndTime">07:00 PM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl139_lblRoom">OOC0000</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl139_Instructor">Danard,amy  </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>13</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">20</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl139_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl139_FTE">5.2</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl139_FTE_state">5.2</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            
+        
+            
+            <div id="rptNonClusterRpt_ctl141_classStatus">
+                <tr id="rptNonClusterRpt_ctl141_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        2811
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						COS  174  &nbsp;01  </td>
+	<td style="">COMP HAIR PRACTICUM     </td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl141_lblCredit">6</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl141_lbldays">MTW</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl141_lblStartTime">11:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl141_lblEndTime">05:00 PM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl141_lblRoom">OOC0000</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl141_Instructor">Danard,amy  </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>13</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">20</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl141_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl141_FTE">5.6</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl141_FTE_state">5.6</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl143_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl143_row" class="open">
+	<td style="text-align: center;">
+					    2888
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						COS  180  &nbsp;01  </td>
+	<td style="text-align: left;">ADV COSMETOLOGY PRAC RVW</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl143_lblCredit">16</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl143_lbldays">TWThF</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl143_lblStartTime">09:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl143_lblEndTime">07:00 PM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl143_lblRoom">OOC0000</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl143_Instructor">Lichty, deni</span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>4</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">20</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl143_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl143_FTE">1.3</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl143_FTE_state">1.3</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            
+        
+            
+            <div id="rptNonClusterRpt_ctl145_classStatus">
+                <tr id="rptNonClusterRpt_ctl145_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        1715
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						GED  050  &nbsp;01  </td>
+	<td style="">BASIC GED PREPARATION 5 </td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl145_lblCredit">5</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl145_lbldays">MTWTh</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl145_lblStartTime">09:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl145_lblEndTime">10:05 AM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl145_lblRoom">SVI0310</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl145_Instructor">Jarrett, bar</span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>19</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">25</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl145_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl145_FTE">6.3</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl145_FTE_state">6.3</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl147_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl147_row" class="open">
+	<td style="text-align: center;">
+					    1716
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						GED  050  &nbsp;02  </td>
+	<td style="text-align: left;">BASIC GED PREPARATION 5 </td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl147_lblCredit">5</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl147_lbldays">MTWTh</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl147_lblStartTime">11:30 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl147_lblEndTime">12:35 PM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl147_lblRoom">SVI0310</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl147_Instructor">Jarrett, bar</span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>22</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">25</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl147_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl147_FTE">7.3</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl147_FTE_state">7.3</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            
+        
+            
+            <div id="rptNonClusterRpt_ctl149_classStatus">
+                <tr id="rptNonClusterRpt_ctl149_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        1712
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						GED  051  &nbsp;02  </td>
+	<td style="">BASIC GED PREP MATH 5   </td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl149_lblCredit">5</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl149_lbldays">MTWTh</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl149_lblStartTime">11:30 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl149_lblEndTime">12:35 PM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl149_lblRoom">SVI0310</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl149_Instructor">Moore, coch </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>20</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">25</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl149_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl149_FTE">6.7</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl149_FTE_state">6.7</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl151_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl151_row" class="open">
+	<td style="text-align: center;">
+					    1711
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						GED  051  &nbsp;01  </td>
+	<td style="text-align: left;">BASIC GED PREPARATION 5 </td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl151_lblCredit">5</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl151_lbldays">MTWTh</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl151_lblStartTime">09:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl151_lblEndTime">10:05 AM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl151_lblRoom">SVI0310</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl151_Instructor">Moore, coch </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>24</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">25</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl151_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl151_FTE">8.0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl151_FTE_state">8.0</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            
+        
+            
+            <div id="rptNonClusterRpt_ctl153_classStatus">
+                <tr id="rptNonClusterRpt_ctl153_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        1714
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						GED  052  &nbsp;02  </td>
+	<td style="">BASIC GED PREP COMM 5   </td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl153_lblCredit">5</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl153_lbldays">MTWTh</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl153_lblStartTime">10:15 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl153_lblEndTime">11:20 AM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl153_lblRoom">SVI0310</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl153_Instructor">Moore, coch </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>17</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">25</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl153_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl153_FTE">5.7</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl153_FTE_state">5.7</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl155_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl155_row" class="open">
+	<td style="text-align: center;">
+					    1713
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						GED  052  &nbsp;01  </td>
+	<td style="text-align: left;">BASIC GED PREP COMM 5   </td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl155_lblCredit">5</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl155_lbldays">MTWTh</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl155_lblStartTime">10:15 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl155_lblEndTime">11:20 AM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl155_lblRoom">SVI0310</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl155_Instructor">Jarrett, bar</span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>24</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">25</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl155_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl155_FTE">8.0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl155_FTE_state">8.0</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            
+        
+            
+            <div id="rptNonClusterRpt_ctl157_classStatus">
+                <tr id="rptNonClusterRpt_ctl157_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        5020
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						GSPL 020  &nbsp;01  </td>
+	<td style="">PHLEBOTOMY              </td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl157_lblCredit">8</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl157_lbldays">MTTh</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl157_lblStartTime">05:30 PM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl157_lblEndTime">09:30 PM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl157_lblRoom">SVI0601</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl157_Instructor">Walker s    </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>19</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">25</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl157_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl157_FTE">10.1</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl157_FTE_state">10.1</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl159_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl159_row" class="open">
+	<td style="text-align: center;">
+					    4618
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						MAS  125  &nbsp;01  </td>
+	<td style="text-align: left;">MED ADMIN SPEC OFFICE SI</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl159_lblCredit">3</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl159_lbldays">MTWTh</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl159_lblStartTime">08:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl159_lblEndTime">12:30 PM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl159_lblRoom">SVI0502</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl159_Instructor">Ouattara, ga</span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>13</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">30</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl159_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl159_FTE">2.6</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl159_FTE_state">2.6</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            <div id="rptNonClusterRpt_ctl160_rowSeparator">
+	
+			    <!-- separatorStart -->
+			    
+			    <tr bgcolor="white">
+					<td colspan="15">&nbsp;</td>
+					</tr>
+				
+				<tr bgcolor="#016597">
+					<td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center; width: 36px; ">Item</td>
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center; width: 85px; ">Course ID</td> 
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; ">Title</td>
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center;  width: 20px;">CR</td>
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center;  min-width: 52px;">Days</td>
+                    <td class="head" colspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center; border-bottom: solid 1px #FFFFFF; ">Class Time</td>
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center;  width: 60px;">Room</td>
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center; ">Instructor</td>
+                    <td class="head" rowspan="2" colspan="3" style="padding-top: 0; padding-bottom: 0; text-align: center; ">Enrolled</td>
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center; width: 24px; font-size: 10px;">Wait<br />List</td>
+                    <td class="head" colspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center; border-bottom: solid 1px #FFFFFF; ">FTES</td>
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center; display: none;"></td>
+                    </tr>
+
+                <tr bgcolor="#016597">
+					<td class="head" style="padding-top: 1px; padding-bottom: 1px; text-align: center;  font-size: 9px; width: 52px;">Start</td>
+					<td class="head" style="padding-top: 1px; padding-bottom: 1px; text-align: center;  font-size: 9px; width: 52px;">End</td>
+                    <td class="head" style="padding-top: 1px; padding-bottom: 1px; text-align: center;  font-size: 9px;">TOTAL</td>
+                    <td class="head" style="padding-top: 1px; padding-bottom: 1px; text-align: center;  font-size: 9px;">STATE</td>
+                    </tr>
+
+			    <!-- separatorEnd -->
+			    
+	        
+</div>
+        
+            
+            <div id="rptNonClusterRpt_ctl161_classStatus">
+                <tr id="rptNonClusterRpt_ctl161_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        4620
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						MAS  130  &nbsp;01  </td>
+	<td style="">MAS ADV OFFICE SIMULATIO</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl161_lblCredit">9</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl161_lbldays">MTWTh</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl161_lblStartTime">08:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl161_lblEndTime">04:00 PM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl161_lblRoom">SVI0502</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl161_Instructor">Richardson b</span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>13</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">30</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl161_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl161_FTE">7.8</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl161_FTE_state">7.8</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl163_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl163_row" class="open">
+	<td style="text-align: center;">
+					    3350
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						MTA  090  &nbsp;01  </td>
+	<td style="text-align: left;">PACT TRAINING READINESS </td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl163_lblCredit">1</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl163_lbldays">ThF</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl163_lblStartTime">09:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl163_lblEndTime">03:00 PM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl163_lblRoom">SVI0105</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl163_Instructor">Woods,steve </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>20</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">40</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl163_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl163_FTE">1.3</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl163_FTE_state">1.3</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            
+        
+            
+            <div id="rptNonClusterRpt_ctl165_classStatus">
+                <tr id="rptNonClusterRpt_ctl165_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        3299
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						MTA  090  &nbsp;01  </td>
+	<td style="">FOUNDATIONS FOR SUCCESS </td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl165_lblCredit">1</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl165_lbldays">Arr</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl165_lblStartTime">AR:R   M</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl165_lblEndTime">AR:R   M</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl165_lblRoom">SVI</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl165_Instructor">Bailey, rose</span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>16</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">30</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl165_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl165_FTE">1.1</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl165_FTE_state">1.1</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl167_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl167_row" class="open">
+	<td style="text-align: center;">
+					    3300
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						MTA  100  &nbsp;01  </td>
+	<td style="text-align: left;">STRAT SUCCESS PACT STU  </td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl167_lblCredit">1</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl167_lbldays">TTh</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl167_lblStartTime">12:45 PM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl167_lblEndTime">02:00 PM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl167_lblRoom">SVI0105</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl167_Instructor">Woods,steve </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>16</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">30</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl167_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl167_FTE">1.1</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl167_FTE_state">1.1</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            
+        
+            
+            <div id="rptNonClusterRpt_ctl169_classStatus">
+                <tr id="rptNonClusterRpt_ctl169_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        3301
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						MTA  160  &nbsp;01  </td>
+	<td style="">CONSTRUCTION JOB SKILLS </td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl169_lblCredit">2</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl169_lbldays">MTWTh</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl169_lblStartTime">09:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl169_lblEndTime">10:00 AM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl169_lblRoom">SVI0105</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl169_Instructor">Woods,steve </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>16</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">20</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl169_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl169_FTE">2.1</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl169_FTE_state">2.1</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl171_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl171_row" class="open">
+	<td style="text-align: center;">
+					    3311
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						MTA  161  &nbsp;01  </td>
+	<td style="text-align: left;">CONSTRUCTION JOB READINS</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl171_lblCredit">6</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl171_lbldays">MTWTh</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl171_lblStartTime">12:15 PM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl171_lblEndTime">04:00 PM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl171_lblRoom">SVI0610</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl171_Instructor">Davies,diane</span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>14</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">20</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl171_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl171_FTE">5.1</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl171_FTE_state">5.1</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            
+        
+            
+            <div id="rptNonClusterRpt_ctl173_classStatus">
+                <tr id="rptNonClusterRpt_ctl173_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        3305
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						MTA  162  &nbsp;01  </td>
+	<td style="">TRADES MATH I           </td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl173_lblCredit">6</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl173_lbldays">MTWTh</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl173_lblStartTime">02:00 PM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl173_lblEndTime">04:00 PM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl173_lblRoom">SVI0105</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl173_Instructor">Brooks,gabri</span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>16</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">20</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl173_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl173_FTE">6.4</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl173_FTE_state">6.4</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl175_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl175_row" class="open">
+	<td style="text-align: center;">
+					    3312
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						MTA  163  &nbsp;01  </td>
+	<td style="text-align: left;">BLUEPRINT READING       </td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl175_lblCredit">4</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl175_lbldays">MTWTh</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl175_lblStartTime">08:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl175_lblEndTime">01:30 PM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl175_lblRoom">SVI0301</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl175_Instructor">Avila eric  </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>14</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">20</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl175_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl175_FTE">3.3</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl175_FTE_state">3.3</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            
+        
+            
+            <div id="rptNonClusterRpt_ctl177_classStatus">
+                <tr id="rptNonClusterRpt_ctl177_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        3304
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						MTA  164  &nbsp;01  </td>
+	<td style="">INDUSTRIAL 1ST AID/CPR  </td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl177_lblCredit">0</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl177_lbldays">T</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl177_lblStartTime">08:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl177_lblEndTime">04:00 PM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl177_lblRoom">SVI0102</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl177_Instructor">Woods,steve </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>16</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">20</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl177_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl177_FTE">0.5</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl177_FTE_state">0.5</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl179_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl179_row" class="open">
+	<td style="text-align: center;">
+					    3303
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						MTA  165  &nbsp;01  </td>
+	<td style="text-align: left;">ROAD FLAGGING           </td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl179_lblCredit">0</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl179_lbldays">M</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl179_lblStartTime">08:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl179_lblEndTime">04:00 PM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl179_lblRoom">SVI0105</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl179_Instructor">Woods,steve </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>17</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">20</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl179_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl179_FTE">0.6</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl179_FTE_state">0.6</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            
+        
+            
+            <div id="rptNonClusterRpt_ctl181_classStatus">
+                <tr id="rptNonClusterRpt_ctl181_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        3302
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						MTA  167  &nbsp;01  </td>
+	<td style="">CONST TRADES TRAINING I </td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl181_lblCredit">3</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl181_lbldays">MTWTh</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl181_lblStartTime">08:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl181_lblEndTime">04:00 PM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl181_lblRoom">SVI0105</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl181_Instructor">Woods,steve </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>16</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">20</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl181_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl181_FTE">3.2</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl181_FTE_state">3.2</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl183_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl183_row" class="open">
+	<td style="text-align: center;">
+					    3306
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						MTA  168  &nbsp;01  </td>
+	<td style="text-align: left;">CONST TRADES TRAINING II</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl183_lblCredit">4</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl183_lbldays">MTWTh</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl183_lblStartTime">10:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl183_lblEndTime">12:15 PM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl183_lblRoom">SVI0105</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl183_Instructor">Woods,steve </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>16</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">20</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl183_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl183_FTE">3.7</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl183_FTE_state">3.7</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            
+        
+            
+            <div id="rptNonClusterRpt_ctl185_classStatus">
+                <tr id="rptNonClusterRpt_ctl185_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        3313
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						MTA  169  &nbsp;01  </td>
+	<td style="">CONST TRADES TRAING III </td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl185_lblCredit">2</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl185_lbldays">MTWTh</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl185_lblStartTime">09:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl185_lblEndTime">02:00 PM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl185_lblRoom">SVI0201</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl185_Instructor">Avila eric  </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>14</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">20</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl185_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl185_FTE">1.9</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl185_FTE_state">1.9</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl187_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl187_row" class="open">
+	<td style="text-align: center;">
+					    3314
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						MTA  170  &nbsp;01  </td>
+	<td style="text-align: left;">ASSET PREPARATION       </td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl187_lblCredit">2</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl187_lbldays">MTWTh</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl187_lblStartTime">12:15 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl187_lblEndTime">02:15 PM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl187_lblRoom">SVI0301</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl187_Instructor">Brooks,gabri</span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>14</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">20</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl187_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl187_FTE">1.9</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl187_FTE_state">1.9</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            
+        
+            
+            <div id="rptNonClusterRpt_ctl189_classStatus">
+                <tr id="rptNonClusterRpt_ctl189_row" class="cancelled" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        3319
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						MTA  172  &nbsp;02  </td>
+	<td style="">FORKLIFT OPERATION & CRT</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl189_lblCredit">1</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl189_lbldays">MT</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl189_lblStartTime">08:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl189_lblEndTime">11:45 AM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl189_lblRoom">SVI0102</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl189_Instructor">Cancel 6/13 </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>0</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">20</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl189_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl189_FTE">0.0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl189_FTE_state">0.0</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl191_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl191_row" class="open">
+	<td style="text-align: center;">
+					    3307
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						MTA  172  &nbsp;01  </td>
+	<td style="text-align: left;">FORKLIFT OPERATION & CRT</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl191_lblCredit">1</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl191_lbldays">MT</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl191_lblStartTime">08:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl191_lblEndTime">11:45 AM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl191_lblRoom">SVI0102</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl191_Instructor">Avila eric  </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>16</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">20</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl191_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl191_FTE">1.1</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl191_FTE_state">1.1</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            
+        
+            
+            <div id="rptNonClusterRpt_ctl193_classStatus">
+                <tr id="rptNonClusterRpt_ctl193_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        3308
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						MTA  174  &nbsp;01  </td>
+	<td style="">TOOLS/MATERIAL ID/HANDL </td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl193_lblCredit">2</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl193_lbldays">MTWTh</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl193_lblStartTime">08:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl193_lblEndTime">09:00 AM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl193_lblRoom">SVI0105</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl193_Instructor">Woods,steve </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>16</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">20</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl193_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl193_FTE">2.1</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl193_FTE_state">2.1</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl195_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl195_row" class="open">
+	<td style="text-align: center;">
+					    3315
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						MTA  175  &nbsp;01  </td>
+	<td style="text-align: left;">FORMS AND GRADES        </td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl195_lblCredit">2</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl195_lbldays">MTWTh</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl195_lblStartTime">08:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl195_lblEndTime">04:00 PM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl195_lblRoom">SVI0201</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl195_Instructor">Woods,steve </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>14</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">20</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl195_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl195_FTE">1.9</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl195_FTE_state">1.9</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            
+        
+            
+            <div id="rptNonClusterRpt_ctl197_classStatus">
+                <tr id="rptNonClusterRpt_ctl197_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        3316
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						MTA  176  &nbsp;01  </td>
+	<td style="">TRADES MATH II          </td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl197_lblCredit">2</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl197_lbldays">MTWTh</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl197_lblStartTime">09:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl197_lblEndTime">11:45 PM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl197_lblRoom">SVI0201</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl197_Instructor">Avila eric  </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>14</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">15</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl197_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl197_FTE">2.3</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl197_FTE_state">2.3</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl199_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl199_row" class="open">
+	<td style="text-align: center;">
+					    3309
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						MTA  177  &nbsp;01  </td>
+	<td style="text-align: left;">PHYS/FITNESS NUTRITION I</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl199_lblCredit">2</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl199_lbldays">MTWTh</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl199_lblStartTime">12:45 PM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl199_lblEndTime">02:00 PM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl199_lblRoom">SVI0105</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl199_Instructor">Woods,steve </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>16</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">20</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl199_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl199_FTE">2.1</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl199_FTE_state">2.1</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            <div id="rptNonClusterRpt_ctl200_rowSeparator">
+	
+			    <!-- separatorStart -->
+			    
+			    <tr bgcolor="white">
+					<td colspan="15">&nbsp;</td>
+					</tr>
+				
+				<tr bgcolor="#016597">
+					<td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center; width: 36px; ">Item</td>
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center; width: 85px; ">Course ID</td> 
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; ">Title</td>
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center;  width: 20px;">CR</td>
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center;  min-width: 52px;">Days</td>
+                    <td class="head" colspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center; border-bottom: solid 1px #FFFFFF; ">Class Time</td>
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center;  width: 60px;">Room</td>
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center; ">Instructor</td>
+                    <td class="head" rowspan="2" colspan="3" style="padding-top: 0; padding-bottom: 0; text-align: center; ">Enrolled</td>
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center; width: 24px; font-size: 10px;">Wait<br />List</td>
+                    <td class="head" colspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center; border-bottom: solid 1px #FFFFFF; ">FTES</td>
+                    <td class="head" rowspan="2" style="padding-top: 0; padding-bottom: 0; text-align: center; display: none;"></td>
+                    </tr>
+
+                <tr bgcolor="#016597">
+					<td class="head" style="padding-top: 1px; padding-bottom: 1px; text-align: center;  font-size: 9px; width: 52px;">Start</td>
+					<td class="head" style="padding-top: 1px; padding-bottom: 1px; text-align: center;  font-size: 9px; width: 52px;">End</td>
+                    <td class="head" style="padding-top: 1px; padding-bottom: 1px; text-align: center;  font-size: 9px;">TOTAL</td>
+                    <td class="head" style="padding-top: 1px; padding-bottom: 1px; text-align: center;  font-size: 9px;">STATE</td>
+                    </tr>
+
+			    <!-- separatorEnd -->
+			    
+	        
+</div>
+        
+            
+            <div id="rptNonClusterRpt_ctl201_classStatus">
+                <tr id="rptNonClusterRpt_ctl201_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        3317
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						MTA  178  &nbsp;01  </td>
+	<td style="">PHYS/FIT NUTRITION II   </td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl201_lblCredit">2</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl201_lbldays">MTWTh</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl201_lblStartTime">08:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl201_lblEndTime">09:00 AM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl201_lblRoom">SVI0610</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl201_Instructor">Avila eric  </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>14</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">20</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl201_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl201_FTE">2.3</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl201_FTE_state">2.3</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+            
+        
+			
+			<div id="rptNonClusterRpt_ctl203_classStatus">
+			
+				<tr id="rptNonClusterRpt_ctl203_row" class="open">
+	<td style="text-align: center;">
+					    3310
+					    </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;">
+						MTA  179  &nbsp;01  </td>
+	<td style="text-align: left;">OSHA 10 SAFETY          </td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl203_lblCredit">1</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl203_lbldays">WTh</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl203_lblStartTime">08:00 AM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl203_lblEndTime">04:00 PM</span>
+						</td>
+	<td style="white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl203_lblRoom">SVI0105</span>
+						</td>
+	<td>
+						<span id="rptNonClusterRpt_ctl203_Instructor">Woods,steve </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>16</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">20</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl203_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl203_FTE">1.1</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl203_FTE_state">1.1</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                
+                </div>
+		
+            
+        
+            
+            <div id="rptNonClusterRpt_ctl205_classStatus">
+                <tr id="rptNonClusterRpt_ctl205_row" class="open" bgcolor="#CCCCCC">
+	<td style="text-align: center; ">
+                        4104
+                        </td>
+	<td style="text-align: left; padding-left: 4px; white-space: nowrap;  width: 85px;">
+						PSG  110  &nbsp;01  </td>
+	<td style="">BEHAVIORAL PSYCHOLOGY   </td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl205_lblCredit">2</span>
+						</td>
+	<td style=" min-width: 50px;">
+						<span id="rptNonClusterRpt_ctl205_lbldays">MW</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl205_lblStartTime">01:00 PM</span>
+						</td>
+	<td style=" white-space: nowrap;">
+						<span id="rptNonClusterRpt_ctl205_lblEndTime">02:30 PM</span>
+						</td>
+	<td style="white-space: nowrap; ">
+						<span id="rptNonClusterRpt_ctl205_lblRoom">SVI0417</span>
+						</td>
+	<td style="">
+						<span id="rptNonClusterRpt_ctl205_Instructor">Hansen, ken </span>
+						</td>
+	<td style="text-align: right; width: 20px;">
+						<b>23</b>
+						</td>
+	<td style="text-align: center;">/</td>
+	<td style="text-align: left; width: 20px; ">
+						<b class="small">25</b>
+						</td>
+	<td style="text-align: center;">
+						<span id="rptNonClusterRpt_ctl205_lblWaitList">0</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl205_FTE">3.1</span>
+						</td>
+	<td style="text-align: center; ">
+						<span id="rptNonClusterRpt_ctl205_FTE_state">3.1</span>
+						</td>
+	<td style="text-align: center; display: none;">
+						
+						</td>
+</tr>
+
+                </div>
+        
+        
+		    </table>
+		
+
+		&nbsp;
+
+    
+        
+        <br />
+    
+    <div id="pnlTotals">
+	
+        
+        <strong>Non-Clustered Class Summary:</strong>
+        <br />
+        
+        Total Open Classes: 
+            <span id="lblOpenNon">96</span><br />
+        
+        <div id="pnlCancelNon">
+		
+            Total Cancelled Classes: <span id="lblCancelNon">7</span>
+            
+	</div>
+        
+        Total Enrolled in Classes: 
+            <span id="lblEnrollNon">1,514</span><br />
+        
+        Average Class Enrollment: 
+            <span id="lblAverageNon">16</span>
+            <span style="margin-left: 12px; font-size: 10px;"><em>(cancelled classes not factored)</em></span>
+
+        <div>
+            FTES
+            <div style="margin-left: 12px;">
+                Total FTES:
+                    <span id="lblFTEStotalNon">328.3</span><br />
+                Total State-Funded FTES: 
+                    <span id="lblFTESstateNon">327.1</span><br />
+                </div>
+            </div>
+
+        <br /><br />
+        
+        <strong>Clustered Class Summary:</strong>
+        
+        <br />
+        
+        Total Open Clusters:
+            <span id="lblOpenCluster">0</span><br />
+        
+        <div id="pnlCancelCluster">
+		
+
+            Total Cancelled Classes: 
+                <span id="lblCancelCluster">0</span>
+	</div>
+            
+            Total Enrolled in Classes: 
+                <span id="lblEnrollCluster">0</span><br />
+        
+            Average Class Enrollment:  
+                <span id="lblAverageCluster">0</span>
+                <span style="margin-left: 12px; font-size: 10px;"><em>(cancelled classes not factored)</em></span>
+
+            <div>
+                FTES
+                <div style="margin-left: 12px;">
+                    Total FTES:
+                        <span id="lblFTEStotalCluster">0.0</span><br />
+                    Total State-Funded FTES: 
+                        <span id="lblFTESstateCluster">0.0</span><br />
+                    </div>
+                </div>
+
+
+        
+</div>
+        
+        &nbsp;<br />
+        
+        <span style="font-weight:bold"></span>
+    
+			
+	</body></html>
