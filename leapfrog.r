@@ -1,6 +1,12 @@
 library(ggplot2)
 library(dplyr)
 
+#One idea: sort by service years.  Take recent hire salary and subtract 
+#from that all of the other salaries.  Iterate that through all of the hires.  
+#you should see an average negative number.  But that magnitude will be large
+#for recent hires and minimal for long term hires unless you get leap frogging. 
+
+
 #campus
 df<-read.csv(file="I:/My Data Sources/AFT Data/leapfrog_issue.csv",na.strings = "")
 str(df)
