@@ -35,3 +35,24 @@ Lab.df %>% ggplot(aes(x=yrs,y=salary,group=cutYearsWorked,color=cutYearsWorked))
   geom_smooth(se = T, method = "lm")+
   labs(title = "linear model applied to 5 different \ncohorts separated by years worked\nShaded region is Standard Error",
        x = "Service years")
+
+
+
+
+###concept of changing individual scores into difference scores from workers hired later
+
+
+##Make concept data; 5 workers hired over a 10 year period:
+
+df <- data.frame(subj = letters[1:5], 
+                 srv.year = as.integer(c(1,1,2,4,10) ),
+                 salary = c(15000.0,17000.0,18000.0,25000.0,27000.0), stringsAsFactors = FALSE)
+str(df)
+
+mean(df[1,3] - df[-1,3])
+mean(df[2,3] - df[-1,3])
+mean(df[3,3] - df[-(1:3),3])
+mean(df[4,3] - df[-(1:4),3])
+mean(df[5,3] - df[-(1:5),3])
+
+#the above needs to be added to a new column, perhaps using apply (function, row, )
