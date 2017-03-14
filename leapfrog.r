@@ -11,7 +11,7 @@ library(dplyr)
 df<-read.csv(file="I:/My Data Sources/AFT Data/leapfrog_issue.csv",na.strings = "")
 str(df)
 range(df$SRV.YEARS)
-df$cutYearsWorked<-cut(df$SRV.YEARS,5)
+df$cutYearsWorked<-cut(df$SRV.YEARS,5,replace=F)
 levels(df$cutYearsWorked)<-c("1-10","10 - 20","20-29","29-38","38-47")
 
 head(df)
@@ -20,14 +20,17 @@ head(df)
 df %>% 
 #  filter(LAB !='N') %>% 
   select(-cutYearsWorked, -PROG.SYMBOL, -PROGRAM) %>% 
-  mutate(cutYearsWorked = cut(SRV.YEARS, breaks = quantile(SRV.YEARS, probs = seq(0, 1, 0.21)))) %>%
+  mutate(cutYearsWorked = 
+           cut(SRV.YEARS,include.lowest=T, 
+               breaks = quantile(SRV.YEARS, probs = seq(0, 1, 0.2))
+               , labels = c("1 - 4","4 - 9","9 - 15","15 - 23","23 - 33")
+         )) %>%
 #df %>% 
     ggplot(aes(x=SRV.YEARS,y=BASE.SALARY,group=cutYearsWorked,color=cutYearsWorked))+
   geom_point(size=1.5)+
   geom_smooth(se = T, method = "lm")+
   labs(title = "linear model applied to 5 teaching \ncohorts separated by years worked\nShaded region is Standard Error",
-       x = "Service years\nAll faculty")
-
+       x = "Service years\nLAb faculty")
 
 Lab.df<-read.csv(file="I:/My Data Sources/AFT Data/labLeap.csv",na.strings = "",sep="\t")
 Lab.df$cutYearsWorked<-cut(Lab.df$yrs,5)
