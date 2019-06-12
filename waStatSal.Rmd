@@ -1,0 +1,257 @@
+---
+title: "Salaries in Seattle District"
+author: "bh"
+date: "May 17, 2019"
+output:
+  pdf_document:
+    toc: yes
+  html_document:
+    df_print: paged
+    toc: yes
+  word_document:
+    toc: yes
+---
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(fig.width=4, fig.height=3,
+                      echo=FALSE, warning=FALSE, message=FALSE)
+```
+
+#big note: locate where ptf is grepl'd because it will not work for most years
+
+
+#Intro
+This is a quick set of plots about salary based on some very rough filtering by job title.  
+
+##Used packages in R
+```{r load packages,echo=T,results='hide'}
+library(tidyverse)
+library(dplyr)
+library(lubridate)
+library(scales)
+```
+
+
+#Code used to wrangle or tidy
+
+This data comes from the washington state salary database.
+
+```{r load data, include =F, results='hide'}
+df <- read.csv("//S-N-NSCHOME/nschomes/U980354189/Documents/My Data Sources/Data/AnnualEmpSalary2017.csv")
+```
+```{r basic tidying, echo=T}
+(var.name<- names(df))
+var.name[5:9] <- c('2013','2014','2015','2016','2017')
+names(df) <- var.name
+#the following is an HR position that is captured by my later grep of faculty
+df$JobTitle <- sub("SPEC, FACULTY DEV.& COMPLI","SPEC, HR DEV.& COMPLI",df$JobTitle,ignore.case=T) 
+df$JobTitle <- trimws(df$JobTitle) #takes out unnecessary whitespace
+df$Name <- trimws(df$Name) #takes out unnecessary whitespace
+```
+
+##This locates the agency code
+```{r find district agency number,echo=T}
+df %>% filter(
+  grepl("seattle",AgyTitle,ignore.case = T)) %>% 
+  select(Agy) %>% head(2)
+
+df %>% filter(Agy==670,grepl("faculty|ftf",JobTitle,ignore.case = T)) %>%  
+    summarise(n()) #just a check
+
+df %>% 
+  filter(grepl("seattle",
+ AgyTitle,ignore.case = T)) %>% select(Agy) %>% head(2) #another check
+
+```
+
+##Selecting just Seattle data, followed by tidying (campus data unavailable)
+```{r select seattle and tidy the dataframe, echo=T,results='hide'}
+gath.df<- df %>%  #creates seattle data in long format
+  filter(Agy==670) %>% 
+  gather(key=year,value=sal,-c(Agy:JobTitle)) %>% filter(sal>0)
+
+head(gath.df)
+
+#change date format using lubridate's ymd (should do this earlier)
+gath.df <- mutate(gath.df,year=ymd(paste0(gath.df$year,"06-30-")))
+
+#check
+gath.df %>% group_by(year) %>%   summarise(mean(sal))
+
+# very rough filter  for faculty
+FTF.grepl <- "faculty|ftf"
+PTF.grepl <- 'part|ptf'   ##big note here.  PTF is only recorded since 2016
+gath.df %>% filter(grepl(FTF.grepl,JobTitle,ignore.case = T)) %>%
+  group_by(year) %>% summarise(n(),mean(sal),min(sal),max(sal))
+```
+
+#Mean of salary
+```{r plot means of sal, echo=T}
+dean.grep <- 'dean|director|^dir|dir'
+
+plotting.df<- gath.df %>% 
+  mutate(yr=ifelse(year=="2013-06-30",'2013',
+              ifelse(year=="2014-06-30",'2014',
+              ifelse(year=="2015-06-30",'2015',
+              ifelse(year=="2016-06-30",'2016','2017'))))) %>% 
+  mutate(status=ifelse(
+                  grepl(FTF.grepl,JobTitle,ignore.case =T)==T,'FTF',
+                ifelse(grepl(PTF.grepl,JobTitle,
+                 ignore.case =T)==T,'PTF',
+                 ifelse(grepl(dean.grep,JobTitle,
+                 ignore.case =T)==T,'dean/dir','non-fac')))) %>%
+  group_by(yr,status) %>% 
+  summarise(n=n(),m=mean(sal),sd=sd(sal))
+
+head(plotting.df)
+```
+
+```{r plot mean, echo=T}
+plotting.df %>% 
+  ggplot(aes(x=yr,y=m,group=status,color=status))+
+  geom_point()+
+  geom_line()+ 
+  scale_y_continuous(labels = scales::comma)+
+  ggtitle("Seattle College averages in Salary") +
+  xlab("Year") + ylab("Mean Salary in Dollars")
+```
+
+
+
+##Plot salaries by quantiles
+```{r plot mean quantiles, echo=T, fig.height=4, fig.width=6}
+
+gath.df %>% 
+  mutate(yr=ifelse(year=="2013-06-30",'2013',
+              ifelse(year=="2014-06-30",'2014',
+              ifelse(year=="2015-06-30",'2015',
+              ifelse(year=="2016-06-30",'2016','2017'))))) %>% 
+  mutate(status=ifelse(
+                  grepl(FTF.grepl,JobTitle,ignore.case =T)==T,'faculty',
+                ifelse(grepl(dean.grep,JobTitle,
+                 ignore.case =T)==T,'dean/dir','non-fac'))) %>%
+  group_by(yr,status) %>% filter(sal>14000) %>% 
+  summarise(n=n(),
+          Salary=list(enframe(quantile(sal, probs=c(0,0.25,0.5,0.75,1))))) %>% 
+  unnest -> plot.data
+
+  plot.data %>% 
+  ggplot(aes(x=yr,y=value,group=status,color=status))+
+  geom_point()+ggtitle("Seattle College Salary Qantiles") +
+  xlab("Year") + ylab("Mean Salary in Dollars")+
+  scale_y_continuous(labels = scales::comma)+
+  facet_wrap(~status)+
+  geom_line(aes(x=yr,y=value,group=name),linetype='dashed')+
+  geom_smooth(aes(x=yr,y=value,group=name),method = 'lm',size=.1,se=F)+
+  theme(axis.text.x = element_text(angle = 60, hjust = 1))
+
+
+plot.data %>% 
+  ggplot(aes(x=yr,y=n,group=status,color=status))+geom_point()+
+  geom_line()+facet_wrap(~status)+
+  theme(axis.text.x = element_text(angle = 60, hjust = 1))+ggtitle('number of employees by status')
+
+```
+
+```{r sum of status over time, echo=T}
+gath.df %>% 
+  mutate(yr=ifelse(year=="2013-06-30",'2013',
+              ifelse(year=="2014-06-30",'2014',
+              ifelse(year=="2015-06-30",'2015',
+              ifelse(year=="2016-06-30",'2016','2017'))))) %>% 
+  mutate(status=ifelse(
+                  grepl(FTF.grepl,JobTitle,ignore.case =T)==T,'faculty',
+                ifelse(grepl('^dir|dean|director',JobTitle,
+                 ignore.case =T)==T,'dean/dir','non-fac'))) %>%
+  group_by(yr,status) %>% 
+  summarise(n=n(),sum.of.Sal=sum(sal)) %>%
+  
+  ggplot(aes(x=yr,y=sum.of.Sal,color=status,group=status))+
+  geom_line()+
+  scale_y_continuous(labels = scales::comma)+theme(axis.text.x = element_text(angle = 60, hjust = 1))+ggtitle('sum of all salary\nby status' )
+
+```
+
+#Differences in Salary across years
+
+```{r difference in total workers across years,echo=T}
+gath.df %>% 
+  mutate(yr=ifelse(year=="2013-06-30",'2013',
+                   ifelse(year=="2014-06-30",'2014',
+                          ifelse(year=="2015-06-30",'2015',
+                                 ifelse(year=="2016-06-30",'2016','2017'))))) %>% 
+  mutate(status=ifelse(
+    grepl(FTF.grepl,JobTitle,ignore.case =T)==T,'faculty',
+    ifelse(grepl(dean.grep,JobTitle,
+                 ignore.case =T)==T,'dean/dir','non-fac'))) %>% 
+  group_by(yr) %>% 
+  summarise(sum.sal = sum(sal)) %>% 
+  #group_by(yr) %>% 
+  summarise(sum.dif=list(diff(sum.sal))) %>% unnest(sum.dif)->sum.dif 
+
+cbind(as.data.frame(sum.dif),data.frame(yrs=c(2014,2015,2016,2017))) %>% 
+  ggplot(aes(x=yrs,y=sum.dif))+geom_line()+
+  scale_y_continuous(labels = scales::comma)+
+  ggtitle("Difference in spending from previous year") +
+  xlab("Year") + ylab("Difference in Salary ")
+
+```
+
+#differences in spending on salary by group
+```{r difference in grouped workers across years,echo=T}
+gath.df %>% 
+  mutate(yr=ifelse(year=="2013-06-30",'2013',
+                   ifelse(year=="2014-06-30",'2014',
+                          ifelse(year=="2015-06-30",'2015',
+                                 ifelse(year=="2016-06-30",'2016','2017'))))) %>% 
+  mutate(status=ifelse(
+    grepl(FTF.grepl,JobTitle,ignore.case =T)==T,'faculty',
+    ifelse(grepl(dean.grep,JobTitle,
+                 ignore.case =T)==T,'dean/dir','non-fac'))) %>% 
+  group_by(status,yr) %>% 
+  summarise(n=n(),sum.sal = sum(sal) )-> sum.Salaries.by.grp.yr
+  
+ df.sum.dif<- data.frame( cbind(data.frame(sum.Salaries.by.grp.yr),data.frame(sum.dif=c(0,diff(sum.Salaries.by.grp.yr$sum.sal)))))
+
+ for(i in 1:nrow(df.sum.dif)){ 
+   if(df.sum.dif$yr[i]==2013){df.sum.dif$sum.dif[i]=0 }
+ }
+ 
+       df.sum.dif %>% filter(yr!=2013) %>% 
+ ggplot(aes(x=yr,y=sum.dif,group=status,color=status))+geom_line()+
+  scale_y_continuous(labels = scales::comma)+
+  ggtitle("Difference in spending from previous year") +
+   xlab("Year") + ylab("Difference in Summed Salary ")+facet_wrap(~status)
+
+```
+
+#Standard Deviation of salary
+##(it's not really helpful)
+I thought I'd look at this but because I'm grouping by job title, in some cases there are only single values so there isn't any standard deviation to be calculated in a given year.
+```{r plot standard deviation, echo=T}
+plotting.df %>% 
+  ggplot(aes(x=yr,y=sd,group=status,color=status))+
+  geom_point()+
+  geom_line()+ 
+  scale_y_continuous(labels = scales::comma)+
+  ggtitle("Seattle College standard deviation in Salary") +
+  xlab("Year") + ylab("Standard Deviation of Sal in Dollars")
+```
+
+
+```{r 2016 dean variation,include=F}
+
+gath.df %>% 
+  mutate(yr=ifelse(year=="2013-06-30",'2013',
+              ifelse(year=="2014-06-30",'2014',
+              ifelse(year=="2015-06-30",'2015',
+              ifelse(year=="2016-06-30",'2016','2017'))))) %>% 
+  mutate(status=ifelse(
+                  grepl(FTF.grepl,JobTitle,ignore.case =T)==T,'faculty',
+                ifelse(grepl('dean|director',JobTitle,
+                 ignore.case =T)==T,'dean/dir','non-fac'))) %>%
+  group_by(yr,JobTitle) %>% 
+  filter(status=='dean/dir',yr=='2016') %>% summarise(n(),mean(sal),sd=sd(sal))
+```
+#Future
+
+What would be nice is a quick way to get salary categories so we could show differences between staff (and their subgroups) compared to exempt (Vice pres/chancellors, etc).  
