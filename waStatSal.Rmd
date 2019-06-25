@@ -92,6 +92,14 @@ gath.df %>% filter(grepl(FTF.grepl,JobTitle,ignore.case = T)) %>%
   group_by(year) %>% summarise(n(),mean(sal),min(sal),max(sal))
 ```
 
+```{r tidytext, echo=T}
+titles<- tibble(lines=1:length(gath.df$JobTitle),text=gath.df$JobTitle)
+tidy.titles<- titles %>% unnest_tokens(word,text)
+tidy.titles <- tidy.titles %>% anti_join(stop_words)
+tidy.titles %>% count(word,sort=T) %>% filter(grepl('chan',word,ignore.case = T))
+```
+
+
 #Mean of salary
 ```{r plot means of sal, echo=T}
 dean.grep <- 'dean|director|^dir|dir'
