@@ -49,6 +49,7 @@ names(df) <- var.name
 df$JobTitle <- sub("SPEC, FACULTY DEV.& COMPLI","SPEC, HR DEV.& COMPLI",df$JobTitle,ignore.case=T) 
 df$JobTitle <- trimws(df$JobTitle) #takes out unnecessary whitespace
 df$Name <- trimws(df$Name) #takes out unnecessary whitespace
+df$AgyTitle <- trimws(df$AgyTitle) #takes out unnecessary whitespace
 ```
 ##This locates the agency code
 ```{r find district agency number,echo=T}
@@ -63,12 +64,6 @@ df %>%
   filter(grepl("seattle",
  AgyTitle,ignore.case = T)) %>% select(Agy) %>% head(2) #another check
 
-```
-
-##tidytext unnesting of words
-```{r unnest for tidytext,echo=T}
-title <- tibble(line=1:length(df$JobTitle),text=df$JobTitle)
-title %>% unnest_tokens(word,text)
 ```
 
 ##Selecting just Seattle data, followed by tidying (campus data unavailable)
@@ -93,12 +88,26 @@ gath.df %>% filter(grepl(FTF.grepl,JobTitle,ignore.case = T)) %>%
 ```
 
 ```{r tidytext, echo=T}
-titles<- tibble(lines=1:length(gath.df$JobTitle),text=gath.df$JobTitle)
+#titles<- tibble(lines=1:length(gath.df$JobTitle),text=gath.df$JobTitle)
 tidy.titles<- titles %>% unnest_tokens(word,text)
 tidy.titles <- tidy.titles %>% anti_join(stop_words)
-tidy.titles %>% count(word,sort=T) %>% filter(grepl('chan',word,ignore.case = T))
-```
+tidy.titles %>% count(word,sort=T) %>% filter(grepl('chance',word,ignore.case = T))
 
+gath.df <- gath.df %>% mutate(year_group=year(year),line=row_number())
+
+tidy_jobtitles<- gath.df %>% unnest_tokens(word,JobTitle)
+data(stop_words)
+
+tidy_jobtitles <- tidy.jobtitles %>%
+  anti_join(stop_words)
+clus.df<- tidy_jobtitles %>% group_by(year_group) %>% 
+  count(word, sort = T) %>% filter(n<5)
+
+```
+```{r cluster titles,echo=T}
+clus.df
+
+```
 
 #Mean of salary
 ```{r plot means of sal, echo=T}
