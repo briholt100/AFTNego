@@ -88,7 +88,7 @@ gath.df %>% filter(grepl(FTF.grepl,JobTitle,ignore.case = T)) %>%
 ```
 
 ```{r tidytext, echo=T}
-#titles<- tibble(lines=1:length(gath.df$JobTitle),text=gath.df$JobTitle)
+titles<- tibble(lines=1:length(gath.df$JobTitle),text=gath.df$JobTitle)
 tidy.titles<- titles %>% unnest_tokens(word,text)
 tidy.titles <- tidy.titles %>% anti_join(stop_words)
 tidy.titles %>% count(word,sort=T) %>% filter(grepl('chance',word,ignore.case = T))
@@ -98,7 +98,7 @@ gath.df <- gath.df %>% mutate(year_group=year(year),line=row_number())
 tidy_jobtitles<- gath.df %>% unnest_tokens(word,JobTitle)
 data(stop_words)
 
-tidy_jobtitles <- tidy.jobtitles %>%
+tidy_jobtitles <- tidy_jobtitles %>%
   anti_join(stop_words)
 clus.df<- tidy_jobtitles %>% group_by(year_group) %>% 
   count(word, sort = T) %>% filter(n<5)
