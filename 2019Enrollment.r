@@ -74,7 +74,7 @@ library(tabulizer)
 library(dplyr)
 library(stringr)
 # default call with no parameters changed
-matrix_results <- extract_tables(url)
+#matrix_results <- extract_tables(url)
 
 # get back the tables as data frames, keeping their headers
 df_results <- extract_tables(url, output = "data.frame", header = TRUE)
